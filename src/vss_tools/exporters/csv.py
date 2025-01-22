@@ -35,6 +35,7 @@ def get_header(entry_type: str, with_instance_column: bool) -> list[str]:
         "Comment",
         "Allowed",
         "Default",
+        "IsInstance",
     ]
     if with_instance_column:
         row.append("Instances")
@@ -57,6 +58,7 @@ def add_rows(rows: list[list[Any]], root: VSSNode, with_instance_column: bool) -
             getattr_nn(data, "comment", ""),
             getattr_nn(data, "allowed", ""),
             getattr_nn(data, "default", ""),
+            getattr_nn(data, "is_instance", ""),
         ]
         if with_instance_column:
             row.append(getattr_nn(data, "instances", ""))

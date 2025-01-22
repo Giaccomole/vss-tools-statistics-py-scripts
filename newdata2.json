@@ -1,0 +1,5419 @@
+{
+  "name": "Vehicle",
+  "type": "Node",
+  "children": [
+    {
+      "name": "Branches",
+      "type": "Node",
+      "children": [
+        {
+          "name": "Powertrain",
+          "children": [
+            {
+              "name": "CombustionEngine",
+              "children": [
+                {
+                  "name": "EngineOil",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "EngineCoolant",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "DieselExhaustFluid",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "DieselParticulateFilter",
+                  "children": [],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            },
+            {
+              "name": "Transmission",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "ElectricMotor",
+              "children": [
+                {
+                  "name": "EngineCoolant",
+                  "children": [],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            },
+            {
+              "name": "TractionBattery",
+              "children": [
+                {
+                  "name": "Temperature",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "CellVoltage",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "StateOfCharge",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Charging",
+                  "children": [
+                    {
+                      "name": "ChargingPort",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "MaximumChargingCurrent",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "ChargeCurrent",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "ChargeVoltage",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Location",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Timer",
+                      "children": [],
+                      "value": 1
+                    }
+                  ],
+                  "value": 1
+                },
+                {
+                  "name": "DCDC",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "BatteryConditioning",
+                  "children": [],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            },
+            {
+              "name": "FuelSystem",
+              "children": [],
+              "value": 1
+            }
+          ],
+          "value": 1
+        },
+        {
+          "name": "Body",
+          "children": [
+            {
+              "name": "Hood",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "Trunk",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "Horn",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "Raindetection",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "Windshield",
+              "children": [
+                {
+                  "name": "Wiping",
+                  "children": [
+                    {
+                      "name": "System",
+                      "children": [],
+                      "value": 1
+                    }
+                  ],
+                  "value": 1
+                },
+                {
+                  "name": "WasherFluid",
+                  "children": [],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            },
+            {
+              "name": "Lights",
+              "children": [
+                {
+                  "name": "Beam",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Running",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Backup",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Parking",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Fog",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "LicensePlate",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Brake",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Hazard",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "DirectionIndicator",
+                  "children": [],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            },
+            {
+              "name": "Mirrors",
+              "children": [],
+              "value": 1
+            }
+          ],
+          "value": 1
+        },
+        {
+          "name": "Cabin",
+          "children": [
+            {
+              "name": "RearShade",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "HVAC",
+              "children": [
+                {
+                  "name": "Station",
+                  "children": [],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            },
+            {
+              "name": "Infotainment",
+              "children": [
+                {
+                  "name": "Media",
+                  "children": [
+                    {
+                      "name": "Played",
+                      "children": [],
+                      "value": 1
+                    }
+                  ],
+                  "value": 1
+                },
+                {
+                  "name": "Navigation",
+                  "children": [
+                    {
+                      "name": "DestinationSet",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Map",
+                      "children": [],
+                      "value": 1
+                    }
+                  ],
+                  "value": 1
+                },
+                {
+                  "name": "HMI",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "SmartphoneProjection",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "SmartphoneScreenMirroring",
+                  "children": [],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            },
+            {
+              "name": "Sunroof",
+              "children": [
+                {
+                  "name": "Shade",
+                  "children": [],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            },
+            {
+              "name": "RearviewMirror",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "Light",
+              "children": [
+                {
+                  "name": "Spotlight",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "AmbientLight",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "InteractiveLightBar",
+                  "children": [],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            },
+            {
+              "name": "Door",
+              "children": [
+                {
+                  "name": "Window",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Shade",
+                  "children": [],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            },
+            {
+              "name": "Seat",
+              "children": [
+                {
+                  "name": "Occupant",
+                  "children": [
+                    {
+                      "name": "Identifier",
+                      "children": [],
+                      "value": 1
+                    }
+                  ],
+                  "value": 1
+                },
+                {
+                  "name": "Backrest",
+                  "children": [
+                    {
+                      "name": "Lumbar",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "SideBolster",
+                      "children": [],
+                      "value": 1
+                    }
+                  ],
+                  "value": 1
+                },
+                {
+                  "name": "Seating",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Headrest",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Airbag",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Switch",
+                  "children": [
+                    {
+                      "name": "Backrest",
+                      "children": [
+                        {
+                          "name": "Lumbar",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "SideBolster",
+                          "children": [],
+                          "value": 1
+                        }
+                      ],
+                      "value": 1
+                    },
+                    {
+                      "name": "Seating",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Headrest",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Massage",
+                      "children": [],
+                      "value": 1
+                    }
+                  ],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            },
+            {
+              "name": "Convertible",
+              "children": [],
+              "value": 1
+            }
+          ],
+          "value": 1
+        },
+        {
+          "name": "ADAS",
+          "children": [
+            {
+              "name": "CruiseControl",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "LaneDepartureDetection",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "ObstacleDetection",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "ABS",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "TCS",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "ESC",
+              "children": [
+                {
+                  "name": "RoadFriction",
+                  "children": [],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            },
+            {
+              "name": "EBD",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "EBA",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "DMS",
+              "children": [],
+              "value": 1
+            }
+          ],
+          "value": 1
+        },
+        {
+          "name": "Chassis",
+          "children": [
+            {
+              "name": "Axle",
+              "children": [
+                {
+                  "name": "Wheel",
+                  "children": [
+                    {
+                      "name": "Brake",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Tire",
+                      "children": [],
+                      "value": 1
+                    }
+                  ],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            },
+            {
+              "name": "ParkingBrake",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "SteeringWheel",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "Accelerator",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "Brake",
+              "children": [],
+              "value": 1
+            }
+          ],
+          "value": 1
+        },
+        {
+          "name": "OBD",
+          "children": [
+            {
+              "name": "Status",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "O2",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "O2WR",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "Catalyst",
+              "children": [
+                {
+                  "name": "Bank1",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Bank2",
+                  "children": [],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            },
+            {
+              "name": "DriveCycleStatus",
+              "children": [],
+              "value": 1
+            }
+          ],
+          "value": 1
+        },
+        {
+          "name": "Driver",
+          "children": [
+            {
+              "name": "Identifier",
+              "children": [],
+              "value": 1
+            }
+          ],
+          "value": 1
+        },
+        {
+          "name": "Occupant",
+          "children": [
+            {
+              "name": "Identifier",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "HeadPosition",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "MidEyeGaze",
+              "children": [],
+              "value": 1
+            }
+          ],
+          "value": 1
+        },
+        {
+          "name": "Exterior",
+          "children": [],
+          "value": 1
+        },
+        {
+          "name": "Service",
+          "children": [],
+          "value": 1
+        },
+        {
+          "name": "Connectivity",
+          "children": [],
+          "value": 1
+        },
+        {
+          "name": "VersionVSS",
+          "children": [],
+          "value": 1
+        },
+        {
+          "name": "VehicleIdentification",
+          "children": [],
+          "value": 1
+        },
+        {
+          "name": "LowVoltageBattery",
+          "children": [],
+          "value": 1
+        },
+        {
+          "name": "Acceleration",
+          "children": [],
+          "value": 1
+        },
+        {
+          "name": "AngularVelocity",
+          "children": [],
+          "value": 1
+        },
+        {
+          "name": "Trailer",
+          "children": [],
+          "value": 1
+        },
+        {
+          "name": "CurrentLocation",
+          "children": [
+            {
+              "name": "GNSSReceiver",
+              "children": [
+                {
+                  "name": "MountingPosition",
+                  "children": [],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            }
+          ],
+          "value": 1
+        },
+        {
+          "name": "Diagnostics",
+          "children": [],
+          "value": 1
+        }
+      ],
+      "value": 1
+    },
+    {
+      "name": "Properties",
+      "type": "Node",
+      "children": [
+        {
+          "name": "Static Properties (Attributes)",
+          "type": "Node",
+          "children": [
+            {
+              "name": "Powertrain",
+              "children": [
+                {
+                  "name": "CombustionEngine",
+                  "children": [
+                    {
+                      "name": "EngineCode",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "Displacement",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "StrokeLength",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "Bore",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "Configuration",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "NumberOfCylinders",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "NumberOfValvesPerCylinder",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "CompressionRatio",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "EngineOilCapacity",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "EngineCoolantCapacity",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "MaxPower",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "MaxTorque",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "AspirationType",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "EngineOil",
+                      "children": [
+                        {
+                          "name": "Capacity",
+                          "children": [],
+                          "value": 1,
+                          "type": "attribute"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "EngineCoolant",
+                      "children": [
+                        {
+                          "name": "Capacity",
+                          "children": [],
+                          "value": 1,
+                          "type": "attribute"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "DieselExhaustFluid",
+                      "children": [
+                        {
+                          "name": "Capacity",
+                          "children": [],
+                          "value": 1,
+                          "type": "attribute"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Transmission",
+                  "children": [
+                    {
+                      "name": "Type",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "GearCount",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "DriveType",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    }
+                  ]
+                },
+                {
+                  "name": "ElectricMotor",
+                  "children": [
+                    {
+                      "name": "EngineCode",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "MaxPower",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "MaxTorque",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "MaxRegenPower",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "MaxRegenTorque",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "EngineCoolant",
+                      "children": [
+                        {
+                          "name": "Capacity",
+                          "children": [],
+                          "value": 1,
+                          "type": "attribute"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "TractionBattery",
+                  "children": [
+                    {
+                      "name": "Id",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "ProductionDate",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "GrossCapacity",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "NominalVoltage",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "MaxVoltage",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "Charging",
+                      "children": [
+                        {
+                          "name": "ChargingPort",
+                          "children": [
+                            {
+                              "name": "SupportedInletTypes",
+                              "children": [],
+                              "value": 1,
+                              "type": "attribute"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "ChargePlugType",
+                          "children": [],
+                          "value": 1,
+                          "type": "attribute"
+                        },
+                        {
+                          "name": "ChargePortType",
+                          "children": [],
+                          "value": 1,
+                          "type": "attribute"
+                        },
+                        {
+                          "name": "ChargePortPosition",
+                          "children": [],
+                          "value": 1,
+                          "type": "attribute"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "FuelSystem",
+                  "children": [
+                    {
+                      "name": "SupportedFuelTypes",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "SupportedFuel",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "HybridType",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "TankCapacity",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "RefuelPortPosition",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    }
+                  ]
+                },
+                {
+                  "name": "Type",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                }
+              ]
+            },
+            {
+              "name": "Body",
+              "children": [
+                {
+                  "name": "BodyType",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "RefuelPosition",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                }
+              ]
+            },
+            {
+              "name": "Cabin",
+              "children": [
+                {
+                  "name": "Infotainment",
+                  "children": [
+                    {
+                      "name": "SmartphoneProjection",
+                      "children": [
+                        {
+                          "name": "SupportedMode",
+                          "children": [],
+                          "value": 1,
+                          "type": "attribute"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "DoorCount",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "DriverPosition",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "SeatRowCount",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "SeatPosCount",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                }
+              ]
+            },
+            {
+              "name": "ADAS",
+              "children": [
+                {
+                  "name": "SupportedAutonomyLevel",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                }
+              ]
+            },
+            {
+              "name": "Chassis",
+              "children": [
+                {
+                  "name": "Wheelbase",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "Axle",
+                  "children": [
+                    {
+                      "name": "TreadWidth",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "TrackWidth",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "AxleWidth",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "WheelCount",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "WheelDiameter",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "WheelWidth",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "TireDiameter",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "TireWidth",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    },
+                    {
+                      "name": "TireAspectRatio",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    }
+                  ]
+                },
+                {
+                  "name": "AxleCount",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                }
+              ]
+            },
+            {
+              "name": "OBD",
+              "children": [
+                {
+                  "name": "PidsA",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "PidsB",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "PidsC",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "Status",
+                  "children": [
+                    {
+                      "name": "IgnitionType",
+                      "children": [],
+                      "value": 1,
+                      "type": "attribute"
+                    }
+                  ]
+                },
+                {
+                  "name": "OBDStandards",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "FuelType",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                }
+              ]
+            },
+            {
+              "name": "VersionVSS",
+              "children": [
+                {
+                  "name": "Major",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "Minor",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "Patch",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "Label",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                }
+              ]
+            },
+            {
+              "name": "VehicleIdentification",
+              "children": [
+                {
+                  "name": "VIN",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "WMI",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "Brand",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "Model",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "Year",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "AcrissCode",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "BodyType",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "DateVehicleFirstRegistered",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "LicensePlate",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "MeetsEmissionStandard",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "ProductionDate",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "PurchaseDate",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "VehicleModelDate",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "VehicleConfiguration",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "VehicleSeatingCapacity",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "VehicleSpecialUsage",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "VehicleExteriorColor",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "VehicleInteriorColor",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "VehicleInteriorType",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "KnownVehicleDamages",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "OptionalExtras",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                }
+              ]
+            },
+            {
+              "name": "LowVoltageBattery",
+              "children": [
+                {
+                  "name": "NominalVoltage",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                },
+                {
+                  "name": "NominalCapacity",
+                  "children": [],
+                  "value": 1,
+                  "type": "attribute"
+                }
+              ]
+            },
+            {
+              "name": "StartTime",
+              "children": [],
+              "value": 1,
+              "type": "attribute"
+            },
+            {
+              "name": "RoofLoad",
+              "children": [],
+              "value": 1,
+              "type": "attribute"
+            },
+            {
+              "name": "CargoVolume",
+              "children": [],
+              "value": 1,
+              "type": "attribute"
+            },
+            {
+              "name": "EmissionsCO2",
+              "children": [],
+              "value": 1,
+              "type": "attribute"
+            },
+            {
+              "name": "CurbWeight",
+              "children": [],
+              "value": 1,
+              "type": "attribute"
+            },
+            {
+              "name": "GrossWeight",
+              "children": [],
+              "value": 1,
+              "type": "attribute"
+            },
+            {
+              "name": "MaxTowWeight",
+              "children": [],
+              "value": 1,
+              "type": "attribute"
+            },
+            {
+              "name": "MaxTowBallWeight",
+              "children": [],
+              "value": 1,
+              "type": "attribute"
+            },
+            {
+              "name": "Length",
+              "children": [],
+              "value": 1,
+              "type": "attribute"
+            },
+            {
+              "name": "Height",
+              "children": [],
+              "value": 1,
+              "type": "attribute"
+            },
+            {
+              "name": "Width",
+              "children": [],
+              "value": 1,
+              "type": "attribute"
+            },
+            {
+              "name": "WidthExcludingMirrors",
+              "children": [],
+              "value": 1,
+              "type": "attribute"
+            },
+            {
+              "name": "WidthIncludingMirrors",
+              "children": [],
+              "value": 1,
+              "type": "attribute"
+            },
+            {
+              "name": "WidthFoldedMirrors",
+              "children": [],
+              "value": 1,
+              "type": "attribute"
+            },
+            {
+              "name": "TurningDiameter",
+              "children": [],
+              "value": 1,
+              "type": "attribute"
+            },
+            {
+              "name": "CurrentLocation",
+              "children": [
+                {
+                  "name": "GNSSReceiver",
+                  "children": [
+                    {
+                      "name": "MountingPosition",
+                      "children": [
+                        {
+                          "name": "X",
+                          "children": [],
+                          "value": 1,
+                          "type": "attribute"
+                        },
+                        {
+                          "name": "Y",
+                          "children": [],
+                          "value": 1,
+                          "type": "attribute"
+                        },
+                        {
+                          "name": "Z",
+                          "children": [],
+                          "value": 1,
+                          "type": "attribute"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Changing Properties",
+          "type": "Node",
+          "children": [
+            {
+              "name": "Sensors",
+              "type": "Node",
+              "children": [
+                {
+                  "name": "Powertrain",
+                  "children": [
+                    {
+                      "name": "CombustionEngine",
+                      "children": [
+                        {
+                          "name": "EngineOilLevel",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "OilLifeRemaining",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "IsRunning",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Speed",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "EngineHours",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "IdleHours",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "ECT",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "EOT",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "EngineOil",
+                          "children": [
+                            {
+                              "name": "Level",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "LifeRemaining",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "Temperature",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "EngineCoolant",
+                          "children": [
+                            {
+                              "name": "Temperature",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "Level",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "LifeRemaining",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "MAP",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "MAF",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "TPS",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "EOP",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Power",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Torque",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "DieselExhaustFluid",
+                          "children": [
+                            {
+                              "name": "Level",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "Range",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "IsLevelLow",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "DieselParticulateFilter",
+                          "children": [
+                            {
+                              "name": "InletTemperature",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "OutletTemperature",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "DeltaPressure",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Transmission",
+                      "children": [
+                        {
+                          "name": "TravelledDistance",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "CurrentGear",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Temperature",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "ClutchWear",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ElectricMotor",
+                      "children": [
+                        {
+                          "name": "Speed",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "TimeInUse",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Temperature",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "CoolantTemperature",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "EngineCoolant",
+                          "children": [
+                            {
+                              "name": "Temperature",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "Level",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "LifeRemaining",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Power",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Torque",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "TractionBattery",
+                      "children": [
+                        {
+                          "name": "ErrorCodes",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "IsPowerConnected",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "IsGroundConnected",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Temperature",
+                          "children": [
+                            {
+                              "name": "Average",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "Min",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "Max",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "CellTemperature",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "CellVoltage",
+                          "children": [
+                            {
+                              "name": "Min",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "IdMin",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "Max",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "IdMax",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "CellVoltages",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "NetCapacity",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "StateOfHealth",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "StateOfCharge",
+                          "children": [
+                            {
+                              "name": "Current",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "Displayed",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "CurrentEnergy",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "CurrentVoltage",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "CurrentCurrent",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "CurrentPower",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "AccumulatedChargedEnergy",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "AccumulatedConsumedEnergy",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "AccumulatedChargedThroughput",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "AccumulatedConsumedThroughput",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "PowerLoss",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Range",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "TimeRemaining",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Charging",
+                          "children": [
+                            {
+                              "name": "ChargingPort",
+                              "children": [
+                                {
+                                  "name": "IsChargingCableConnected",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "MaximumChargingCurrent",
+                              "children": [
+                                {
+                                  "name": "DC",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "Phase1",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "Phase2",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "Phase3",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "IsChargingCableConnected",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "IsCharging",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "IsDischarging",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "ChargeCurrent",
+                              "children": [
+                                {
+                                  "name": "DC",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "Phase1",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "Phase2",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "Phase3",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "ChargeVoltage",
+                              "children": [
+                                {
+                                  "name": "DC",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "Phase1",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "Phase2",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "Phase3",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "AveragePower",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "MaxPower",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "EvseId",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "Location",
+                              "children": [
+                                {
+                                  "name": "Latitude",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "Longitude",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "Altitude",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "PowerLoss",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "Temperature",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "ChargeRate",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "TimeToComplete",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "DCDC",
+                          "children": [
+                            {
+                              "name": "PowerLoss",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "Temperature",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "BatteryConditioning",
+                          "children": [
+                            {
+                              "name": "IsActive",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "IsOngoing",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "FuelSystem",
+                      "children": [
+                        {
+                          "name": "AbsoluteLevel",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "RelativeLevel",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Range",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "TimeRemaining",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "InstantConsumption",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "AverageConsumption",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "ConsumptionSinceStart",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "IsEngineStopStartEnabled",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "IsFuelLevelLow",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AccumulatedBrakingEnergy",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "Range",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "TimeRemaining",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    }
+                  ]
+                },
+                {
+                  "name": "Body",
+                  "children": [
+                    {
+                      "name": "Raindetection",
+                      "children": [
+                        {
+                          "name": "Intensity",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Windshield",
+                      "children": [
+                        {
+                          "name": "Wiping",
+                          "children": [
+                            {
+                              "name": "System",
+                              "children": [
+                                {
+                                  "name": "DriveCurrent",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "IsWiping",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "IsEndingWipeCycle",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "IsWiperError",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "IsPositionReached",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "IsBlocked",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "IsOverheated",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "WiperWear",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "IsWipersWorn",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "WasherFluid",
+                          "children": [
+                            {
+                              "name": "IsLevelLow",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "Level",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Lights",
+                      "children": [
+                        {
+                          "name": "Beam",
+                          "children": [
+                            {
+                              "name": "IsDefect",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Running",
+                          "children": [
+                            {
+                              "name": "IsDefect",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Backup",
+                          "children": [
+                            {
+                              "name": "IsDefect",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Parking",
+                          "children": [
+                            {
+                              "name": "IsDefect",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Fog",
+                          "children": [
+                            {
+                              "name": "IsDefect",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "LicensePlate",
+                          "children": [
+                            {
+                              "name": "IsDefect",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Brake",
+                          "children": [
+                            {
+                              "name": "IsDefect",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Hazard",
+                          "children": [
+                            {
+                              "name": "IsDefect",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "DirectionIndicator",
+                          "children": [
+                            {
+                              "name": "IsDefect",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Cabin",
+                  "children": [
+                    {
+                      "name": "HVAC",
+                      "children": [
+                        {
+                          "name": "AmbientAirTemperature",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Infotainment",
+                      "children": [
+                        {
+                          "name": "Media",
+                          "children": [
+                            {
+                              "name": "Played",
+                              "children": [
+                                {
+                                  "name": "Artist",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "Album",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "Track",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "URI",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "DeclinedURI",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "HMI",
+                          "children": [
+                            {
+                              "name": "CurrentLanguage",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "LastActionTime",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Sunroof",
+                      "children": [
+                        {
+                          "name": "Position",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Light",
+                      "children": [
+                        {
+                          "name": "PerceivedAmbientLight",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Door",
+                      "children": [
+                        {
+                          "name": "IsChildLockActive",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Seat",
+                      "children": [
+                        {
+                          "name": "IsOccupied",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Occupant",
+                          "children": [
+                            {
+                              "name": "Identifier",
+                              "children": [
+                                {
+                                  "name": "Subject",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "Issuer",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "IsBelted",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Airbag",
+                          "children": [
+                            {
+                              "name": "IsDeployed",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Convertible",
+                      "children": [
+                        {
+                          "name": "Status",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "ADAS",
+                  "children": [
+                    {
+                      "name": "ActiveAutonomyLevel",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "CruiseControl",
+                      "children": [
+                        {
+                          "name": "IsError",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "LaneDepartureDetection",
+                      "children": [
+                        {
+                          "name": "IsWarning",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "IsError",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ObstacleDetection",
+                      "children": [
+                        {
+                          "name": "IsWarning",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "IsError",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ABS",
+                      "children": [
+                        {
+                          "name": "IsError",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "IsEngaged",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "TCS",
+                      "children": [
+                        {
+                          "name": "IsError",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "IsEngaged",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ESC",
+                      "children": [
+                        {
+                          "name": "IsError",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "IsEngaged",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "IsStrongCrossWindDetected",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "RoadFriction",
+                          "children": [
+                            {
+                              "name": "MostProbable",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "LowerBound",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "UpperBound",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "EBD",
+                      "children": [
+                        {
+                          "name": "IsError",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "IsEngaged",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "EBA",
+                      "children": [
+                        {
+                          "name": "IsError",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "IsEngaged",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "DMS",
+                      "children": [
+                        {
+                          "name": "IsWarning",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "IsError",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Chassis",
+                  "children": [
+                    {
+                      "name": "Axle",
+                      "children": [
+                        {
+                          "name": "SteeringAngle",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Wheel",
+                          "children": [
+                            {
+                              "name": "Brake",
+                              "children": [
+                                {
+                                  "name": "FluidLevel",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "IsFluidLevelLow",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "PadWear",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "IsBrakesWorn",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Tire",
+                              "children": [
+                                {
+                                  "name": "Pressure",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "IsPressureLow",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                },
+                                {
+                                  "name": "Temperature",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "sensor"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Speed",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "AngularSpeed",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "SteeringWheel",
+                      "children": [
+                        {
+                          "name": "Angle",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Accelerator",
+                      "children": [
+                        {
+                          "name": "PedalPosition",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Brake",
+                      "children": [
+                        {
+                          "name": "PedalPosition",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "IsDriverEmergencyBrakingDetected",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "OBD",
+                  "children": [
+                    {
+                      "name": "Status",
+                      "children": [
+                        {
+                          "name": "IsMILOn",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "DTCCount",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "DTCList",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "FreezeDTC",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "FuelStatus",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "EngineLoad",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "CoolantTemperature",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "ShortTermFuelTrim1",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "LongTermFuelTrim1",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "ShortTermFuelTrim2",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "LongTermFuelTrim2",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "FuelPressure",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "MAP",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "EngineSpeed",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "Speed",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "TimingAdvance",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "IntakeTemp",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "MAF",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "ThrottlePosition",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "AirStatus",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "OxygenSensorsIn2Banks",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "O2",
+                      "children": [
+                        {
+                          "name": "Voltage",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "ShortTermFuelTrim",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "OxygenSensorsIn4Banks",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "IsPTOActive",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "RunTime",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "DistanceWithMIL",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "FuelRailPressureVac",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "FuelRailPressureDirect",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "O2WR",
+                      "children": [
+                        {
+                          "name": "Lambda",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Voltage",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Current",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "CommandedEGR",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "EGRError",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "CommandedEVAP",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "FuelLevel",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "WarmupsSinceDTCClear",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "DistanceSinceDTCClear",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "EVAPVaporPressure",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "BarometricPressure",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "Catalyst",
+                      "children": [
+                        {
+                          "name": "Bank1",
+                          "children": [
+                            {
+                              "name": "Temperature1",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "Temperature2",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Bank2",
+                          "children": [
+                            {
+                              "name": "Temperature1",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            },
+                            {
+                              "name": "Temperature2",
+                              "children": [],
+                              "value": 1,
+                              "type": "sensor"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "DriveCycleStatus",
+                      "children": [
+                        {
+                          "name": "IsMILOn",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "DTCCount",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "IgnitionType",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ControlModuleVoltage",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "AbsoluteLoad",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "CommandedEquivalenceRatio",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "RelativeThrottlePosition",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "AmbientAirTemperature",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "ThrottlePositionB",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "ThrottlePositionC",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "AcceleratorPositionD",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "AcceleratorPositionE",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "AcceleratorPositionF",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "ThrottleActuator",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "RunTimeMIL",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "TimeSinceDTCCleared",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "MaxMAF",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "EthanolPercent",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "EVAPVaporPressureAbsolute",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "EVAPVaporPressureAlternate",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "ShortTermO2Trim1",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "ShortTermO2Trim3",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "LongTermO2Trim1",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "LongTermO2Trim3",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "ShortTermO2Trim2",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "ShortTermO2Trim4",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "LongTermO2Trim2",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "LongTermO2Trim4",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "FuelRailPressureAbsolute",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "RelativeAcceleratorPosition",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "HybridBatteryRemaining",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "OilTemperature",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "FuelInjectionTiming",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "FuelRate",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    }
+                  ]
+                },
+                {
+                  "name": "Driver",
+                  "children": [
+                    {
+                      "name": "Identifier",
+                      "children": [
+                        {
+                          "name": "Subject",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Issuer",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "DistractionLevel",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "IsEyesOnRoad",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "IsHandsOnWheel",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "AttentiveProbability",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "FatigueLevel",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "HeartRate",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    }
+                  ]
+                },
+                {
+                  "name": "Occupant",
+                  "children": [
+                    {
+                      "name": "Identifier",
+                      "children": [
+                        {
+                          "name": "Subject",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Issuer",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "HeadPosition",
+                      "children": [
+                        {
+                          "name": "X",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Y",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Z",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Yaw",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Pitch",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Roll",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "MidEyeGaze",
+                      "children": [
+                        {
+                          "name": "Azimuth",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        },
+                        {
+                          "name": "Elevation",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Exterior",
+                  "children": [
+                    {
+                      "name": "AirTemperature",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "Humidity",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "LightIntensity",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    }
+                  ]
+                },
+                {
+                  "name": "Service",
+                  "children": [
+                    {
+                      "name": "IsServiceDue",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "DistanceToService",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "TimeToService",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    }
+                  ]
+                },
+                {
+                  "name": "Connectivity",
+                  "children": [
+                    {
+                      "name": "IsConnectivityAvailable",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    }
+                  ]
+                },
+                {
+                  "name": "LowVoltageSystemState",
+                  "children": [],
+                  "value": 1,
+                  "type": "sensor"
+                },
+                {
+                  "name": "LowVoltageBattery",
+                  "children": [
+                    {
+                      "name": "CurrentVoltage",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "CurrentCurrent",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    }
+                  ]
+                },
+                {
+                  "name": "Speed",
+                  "children": [],
+                  "value": 1,
+                  "type": "sensor"
+                },
+                {
+                  "name": "TraveledDistance",
+                  "children": [],
+                  "value": 1,
+                  "type": "sensor"
+                },
+                {
+                  "name": "TraveledDistanceSinceStart",
+                  "children": [],
+                  "value": 1,
+                  "type": "sensor"
+                },
+                {
+                  "name": "TripDuration",
+                  "children": [],
+                  "value": 1,
+                  "type": "sensor"
+                },
+                {
+                  "name": "IsBrokenDown",
+                  "children": [],
+                  "value": 1,
+                  "type": "sensor"
+                },
+                {
+                  "name": "IsMoving",
+                  "children": [],
+                  "value": 1,
+                  "type": "sensor"
+                },
+                {
+                  "name": "AverageSpeed",
+                  "children": [],
+                  "value": 1,
+                  "type": "sensor"
+                },
+                {
+                  "name": "Acceleration",
+                  "children": [
+                    {
+                      "name": "Longitudinal",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "Lateral",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "Vertical",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    }
+                  ]
+                },
+                {
+                  "name": "AngularVelocity",
+                  "children": [
+                    {
+                      "name": "Roll",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "Pitch",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "Yaw",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    }
+                  ]
+                },
+                {
+                  "name": "CurrentOverallWeight",
+                  "children": [],
+                  "value": 1,
+                  "type": "sensor"
+                },
+                {
+                  "name": "Trailer",
+                  "children": [
+                    {
+                      "name": "IsConnected",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    }
+                  ]
+                },
+                {
+                  "name": "CurrentLocation",
+                  "children": [
+                    {
+                      "name": "Timestamp",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "Latitude",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "Longitude",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "Heading",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "HorizontalAccuracy",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "Altitude",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "VerticalAccuracy",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "GNSSReceiver",
+                      "children": [
+                        {
+                          "name": "FixType",
+                          "children": [],
+                          "value": 1,
+                          "type": "sensor"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Diagnostics",
+                  "children": [
+                    {
+                      "name": "DTCCount",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    },
+                    {
+                      "name": "DTCList",
+                      "children": [],
+                      "value": 1,
+                      "type": "sensor"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Actuators",
+              "type": "Node",
+              "children": [
+                {
+                  "name": "Powertrain",
+                  "children": [
+                    {
+                      "name": "Transmission",
+                      "children": [
+                        {
+                          "name": "SelectedGear",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "IsParkLockEngaged",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "IsLowRangeEngaged",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "IsElectricalPowertrainEngaged",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "PerformanceMode",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "GearChangeMode",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "ClutchEngagement",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "DiffLockFrontEngagement",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "DiffLockRearEngagement",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "TorqueDistribution",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "TractionBattery",
+                      "children": [
+                        {
+                          "name": "Charging",
+                          "children": [
+                            {
+                              "name": "ChargingPort",
+                              "children": [
+                                {
+                                  "name": "IsFlapOpen",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                },
+                                {
+                                  "name": "IsChargingCableLocked",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "ChargeLimit",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "ChargePortFlap",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "IsChargePortFlapOpen",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "IsChargingCableLocked",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Mode",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "StartStopCharging",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Timer",
+                              "children": [
+                                {
+                                  "name": "Mode",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                },
+                                {
+                                  "name": "Time",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "BatteryConditioning",
+                          "children": [
+                            {
+                              "name": "RequestedMode",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "StartTime",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "TargetTime",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "TargetTemperature",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "FuelSystem",
+                      "children": [
+                        {
+                          "name": "IsFuelPortFlapOpen",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PowerOptimizeLevel",
+                      "children": [],
+                      "value": 1,
+                      "type": "actuator"
+                    },
+                    {
+                      "name": "IsAutoPowerOptimize",
+                      "children": [],
+                      "value": 1,
+                      "type": "actuator"
+                    }
+                  ]
+                },
+                {
+                  "name": "Body",
+                  "children": [
+                    {
+                      "name": "Hood",
+                      "children": [
+                        {
+                          "name": "IsOpen",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "Position",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "Switch",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Trunk",
+                      "children": [
+                        {
+                          "name": "IsLightOn",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "IsLocked",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "IsOpen",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "Position",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "Switch",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Horn",
+                      "children": [
+                        {
+                          "name": "IsActive",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Windshield",
+                      "children": [
+                        {
+                          "name": "Wiping",
+                          "children": [
+                            {
+                              "name": "Mode",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Intensity",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "System",
+                              "children": [
+                                {
+                                  "name": "Mode",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                },
+                                {
+                                  "name": "Frequency",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                },
+                                {
+                                  "name": "TargetPosition",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                },
+                                {
+                                  "name": "ActualPosition",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "IsHeatingOn",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Lights",
+                      "children": [
+                        {
+                          "name": "LightSwitch",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "IsHighBeamSwitchOn",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "Beam",
+                          "children": [
+                            {
+                              "name": "IsOn",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Running",
+                          "children": [
+                            {
+                              "name": "IsOn",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Backup",
+                          "children": [
+                            {
+                              "name": "IsOn",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Parking",
+                          "children": [
+                            {
+                              "name": "IsOn",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Fog",
+                          "children": [
+                            {
+                              "name": "IsOn",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "LicensePlate",
+                          "children": [
+                            {
+                              "name": "IsOn",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Brake",
+                          "children": [
+                            {
+                              "name": "IsActive",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Hazard",
+                          "children": [
+                            {
+                              "name": "IsSignaling",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "DirectionIndicator",
+                          "children": [
+                            {
+                              "name": "IsSignaling",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Mirrors",
+                      "children": [
+                        {
+                          "name": "Tilt",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "Pan",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "IsHeatingOn",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "IsLocked",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "IsFolded",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "RearMainSpoilerPosition",
+                      "children": [],
+                      "value": 1,
+                      "type": "actuator"
+                    },
+                    {
+                      "name": "PowerOptimizeLevel",
+                      "children": [],
+                      "value": 1,
+                      "type": "actuator"
+                    },
+                    {
+                      "name": "IsAutoPowerOptimize",
+                      "children": [],
+                      "value": 1,
+                      "type": "actuator"
+                    }
+                  ]
+                },
+                {
+                  "name": "Cabin",
+                  "children": [
+                    {
+                      "name": "RearShade",
+                      "children": [
+                        {
+                          "name": "IsOpen",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "Position",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "Switch",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "HVAC",
+                      "children": [
+                        {
+                          "name": "Station",
+                          "children": [
+                            {
+                              "name": "FanSpeed",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Temperature",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "AirDistribution",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "IsRecirculationActive",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "IsFrontDefrosterActive",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "IsRearDefrosterActive",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "IsAirConditioningActive",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "PowerOptimizeLevel",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "IsAutoPowerOptimize",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Infotainment",
+                      "children": [
+                        {
+                          "name": "Media",
+                          "children": [
+                            {
+                              "name": "Action",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Played",
+                              "children": [
+                                {
+                                  "name": "Source",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                },
+                                {
+                                  "name": "PlaybackRate",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "SelectedURI",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Volume",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Navigation",
+                          "children": [
+                            {
+                              "name": "DestinationSet",
+                              "children": [
+                                {
+                                  "name": "Latitude",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                },
+                                {
+                                  "name": "Longitude",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Mute",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Volume",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "GuidanceVoice",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Map",
+                              "children": [
+                                {
+                                  "name": "IsAutoScaleModeUsed",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "HMI",
+                          "children": [
+                            {
+                              "name": "FontSize",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "DateFormat",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "TimeFormat",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "DistanceUnit",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "FuelVolumeUnit",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "FuelEconomyUnits",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "EVEconomyUnits",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "TemperatureUnit",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "TirePressureUnit",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "SpeedUnit",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "EVEnergyUnits",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Brightness",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "DayNightMode",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "IsScreenAlwaysOn",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "DisplayOffDuration",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "SmartphoneProjection",
+                          "children": [
+                            {
+                              "name": "Active",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Source",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "SmartphoneScreenMirroring",
+                          "children": [
+                            {
+                              "name": "Active",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Source",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PowerOptimizeLevel",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "IsAutoPowerOptimize",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Sunroof",
+                      "children": [
+                        {
+                          "name": "Switch",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "Shade",
+                          "children": [
+                            {
+                              "name": "IsOpen",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Position",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Switch",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "RearviewMirror",
+                      "children": [
+                        {
+                          "name": "DimmingLevel",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Light",
+                      "children": [
+                        {
+                          "name": "IsGloveBoxOn",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "IsDomeOn",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "Spotlight",
+                          "children": [
+                            {
+                              "name": "IsLightOn",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Intensity",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Color",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "AmbientLight",
+                          "children": [
+                            {
+                              "name": "IsLightOn",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Intensity",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Color",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "InteractiveLightBar",
+                          "children": [
+                            {
+                              "name": "Effect",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "IsLightOn",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Intensity",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Color",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Door",
+                      "children": [
+                        {
+                          "name": "Window",
+                          "children": [
+                            {
+                              "name": "IsOpen",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Position",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Switch",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Shade",
+                          "children": [
+                            {
+                              "name": "IsOpen",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Position",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Switch",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "IsLocked",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "IsOpen",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "Position",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "Switch",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "IsWindowChildLockEngaged",
+                      "children": [],
+                      "value": 1,
+                      "type": "actuator"
+                    },
+                    {
+                      "name": "Seat",
+                      "children": [
+                        {
+                          "name": "SeatBeltHeight",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "Heating",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "Massage",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "Position",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "Height",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "Tilt",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "Backrest",
+                          "children": [
+                            {
+                              "name": "Recline",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Lumbar",
+                              "children": [
+                                {
+                                  "name": "Support",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                },
+                                {
+                                  "name": "Height",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "SideBolster",
+                              "children": [
+                                {
+                                  "name": "Support",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Seating",
+                          "children": [
+                            {
+                              "name": "Length",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Headrest",
+                          "children": [
+                            {
+                              "name": "Height",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Angle",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Switch",
+                          "children": [
+                            {
+                              "name": "IsWarmerEngaged",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "IsCoolerEngaged",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "IsForwardEngaged",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "IsBackwardEngaged",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "IsUpEngaged",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "IsDownEngaged",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "IsTiltForwardEngaged",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "IsTiltBackwardEngaged",
+                              "children": [],
+                              "value": 1,
+                              "type": "actuator"
+                            },
+                            {
+                              "name": "Backrest",
+                              "children": [
+                                {
+                                  "name": "IsReclineForwardEngaged",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                },
+                                {
+                                  "name": "IsReclineBackwardEngaged",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                },
+                                {
+                                  "name": "Lumbar",
+                                  "children": [
+                                    {
+                                      "name": "IsMoreSupportEngaged",
+                                      "children": [],
+                                      "value": 1,
+                                      "type": "actuator"
+                                    },
+                                    {
+                                      "name": "IsLessSupportEngaged",
+                                      "children": [],
+                                      "value": 1,
+                                      "type": "actuator"
+                                    },
+                                    {
+                                      "name": "IsUpEngaged",
+                                      "children": [],
+                                      "value": 1,
+                                      "type": "actuator"
+                                    },
+                                    {
+                                      "name": "IsDownEngaged",
+                                      "children": [],
+                                      "value": 1,
+                                      "type": "actuator"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "SideBolster",
+                                  "children": [
+                                    {
+                                      "name": "IsMoreSupportEngaged",
+                                      "children": [],
+                                      "value": 1,
+                                      "type": "actuator"
+                                    },
+                                    {
+                                      "name": "IsLessSupportEngaged",
+                                      "children": [],
+                                      "value": 1,
+                                      "type": "actuator"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Seating",
+                              "children": [
+                                {
+                                  "name": "IsForwardEngaged",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                },
+                                {
+                                  "name": "IsBackwardEngaged",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Headrest",
+                              "children": [
+                                {
+                                  "name": "IsUpEngaged",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                },
+                                {
+                                  "name": "IsDownEngaged",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                },
+                                {
+                                  "name": "IsForwardEngaged",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                },
+                                {
+                                  "name": "IsBackwardEngaged",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Massage",
+                              "children": [
+                                {
+                                  "name": "IsIncreaseEngaged",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                },
+                                {
+                                  "name": "IsDecreaseEngaged",
+                                  "children": [],
+                                  "value": 1,
+                                  "type": "actuator"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "HeatingCooling",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PowerOptimizeLevel",
+                      "children": [],
+                      "value": 1,
+                      "type": "actuator"
+                    },
+                    {
+                      "name": "IsAutoPowerOptimize",
+                      "children": [],
+                      "value": 1,
+                      "type": "actuator"
+                    }
+                  ]
+                },
+                {
+                  "name": "ADAS",
+                  "children": [
+                    {
+                      "name": "CruiseControl",
+                      "children": [
+                        {
+                          "name": "IsEnabled",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "IsActive",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "SpeedSet",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "LaneDepartureDetection",
+                      "children": [
+                        {
+                          "name": "IsEnabled",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ObstacleDetection",
+                      "children": [
+                        {
+                          "name": "IsEnabled",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ABS",
+                      "children": [
+                        {
+                          "name": "IsEnabled",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "TCS",
+                      "children": [
+                        {
+                          "name": "IsEnabled",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ESC",
+                      "children": [
+                        {
+                          "name": "IsEnabled",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "EBD",
+                      "children": [
+                        {
+                          "name": "IsEnabled",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "EBA",
+                      "children": [
+                        {
+                          "name": "IsEnabled",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "DMS",
+                      "children": [
+                        {
+                          "name": "IsEnabled",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PowerOptimizeLevel",
+                      "children": [],
+                      "value": 1,
+                      "type": "actuator"
+                    },
+                    {
+                      "name": "IsAutoPowerOptimize",
+                      "children": [],
+                      "value": 1,
+                      "type": "actuator"
+                    }
+                  ]
+                },
+                {
+                  "name": "Chassis",
+                  "children": [
+                    {
+                      "name": "ParkingBrake",
+                      "children": [
+                        {
+                          "name": "IsEngaged",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "IsAutoApplyEnabled",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "SteeringWheel",
+                      "children": [
+                        {
+                          "name": "Tilt",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "Extension",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        },
+                        {
+                          "name": "HeatingCooling",
+                          "children": [],
+                          "value": 1,
+                          "type": "actuator"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "TripMeterReading",
+                  "children": [],
+                  "value": 1,
+                  "type": "actuator"
+                },
+                {
+                  "name": "PowerOptimizeLevel",
+                  "children": [],
+                  "value": 1,
+                  "type": "actuator"
+                },
+                {
+                  "name": "IsAutoPowerOptimize",
+                  "children": [],
+                  "value": 1,
+                  "type": "actuator"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,490 @@
+.
+├── CHANGELOG.md
+├── FAQ.md
+├── LICENSE
+├── MANIFEST.in
+├── README.md
+├── binary
+│   ├── CMakeLists.txt
+│   ├── README.md
+│   ├── c_parser
+│   │   ├── CMakeLists.txt
+│   │   ├── cparserlib.c
+│   │   ├── cparserlib.h
+│   │   └── testparser.c
+│   └── go_parser
+│       ├── datamodel
+│       │   ├── datamodel.go
+│       │   └── go.mod
+│       ├── go.mod
+│       ├── go.sum
+│       ├── parserlib
+│       │   ├── go.mod
+│       │   ├── go.sum
+│       │   └── parser.go
+│       └── testparser.go
+├── contrib
+│   └── vspec2ttl
+│       └── vspec2ttl.py
+├── directory_structure.txt
+├── docs
+│   ├── apigear.md
+│   ├── assets
+│   │   └── Validate aspect model on ESMF-AME.png
+│   ├── ddsidl.md
+│   ├── go.md
+│   ├── graphql.md
+│   ├── id.md
+│   ├── protobuf.md
+│   ├── samm.md
+│   ├── tree.md
+│   ├── vspec.md
+│   └── vspec_arch.md
+├── obsolete
+│   ├── ocf
+│   │   ├── vehicleURI.swagger.json
+│   │   ├── vspec2ocf.csv
+│   │   ├── vspec2ocf.py
+│   │   └── vspecocfmap.csv
+│   ├── vspec2aaproperties
+│   │   ├── README.md
+│   │   ├── read_mapping_layer.py
+│   │   ├── read_type_layer.py
+│   │   ├── requirements.txt
+│   │   ├── templates
+│   │   │   ├── android_vhal_mapping_cpp.j2 -> android_vhal_mapping_cpp.tpl
+│   │   │   └── android_vhal_mapping_cpp.tpl
+│   │   ├── type_hal_parser.py
+│   │   ├── typemap.yml
+│   │   ├── types.hal
+│   │   ├── vspec2aaprop.py
+│   │   ├── vspec2aaprop_test.sh
+│   │   ├── vspec2prop_mapping.yml
+│   │   ├── vspec_helper.py
+│   │   └── vss-code-gen-plan.md
+│   ├── vspec2c
+│   │   ├── Makefile
+│   │   ├── README.md
+│   │   ├── example
+│   │   │   ├── Makefile
+│   │   │   └── vss_dump.c
+│   │   ├── schematics.png
+│   │   ├── vehicle_signal_specification.c
+│   │   └── vehicle_signal_specification.h
+│   └── vspec2c.py
+├── poetry.lock
+├── poetry.toml
+├── pyproject.toml
+├── src
+│   └── vss_tools
+│       ├── __init__.py
+│       ├── cli.py
+│       ├── cli_options.py
+│       ├── datatypes.py
+│       ├── exporters
+│       │   ├── __init__.py
+│       │   ├── apigear.py
+│       │   ├── binary.py
+│       │   ├── csv.py
+│       │   ├── ddsidl.py
+│       │   ├── franca.py
+│       │   ├── go.py
+│       │   ├── graphql.py
+│       │   ├── id.py
+│       │   ├── json.py
+│       │   ├── jsonschema.py
+│       │   ├── protobuf.py
+│       │   ├── samm
+│       │   │   ├── __init__.py
+│       │   │   ├── config
+│       │   │   │   └── config.py
+│       │   │   └── helpers
+│       │   │       ├── data_types_and_units.py
+│       │   │       ├── file_helper.py
+│       │   │       ├── namespaces.py
+│       │   │       ├── samm_concepts.py
+│       │   │       ├── string_helper.py
+│       │   │       ├── ttl_builder_helper.py
+│       │   │       ├── ttl_helper.py
+│       │   │       └── vss_helper.py
+│       │   ├── tree.py
+│       │   └── yaml.py
+│       ├── lazy_group.py
+│       ├── main.py
+│       ├── model.py
+│       ├── py.typed
+│       ├── tree.py
+│       ├── units_quantities.py
+│       ├── utils
+│       │   ├── __init__.py
+│       │   ├── idgen_utils.py
+│       │   ├── misc.py
+│       │   └── vss2id_val.py
+│       └── vspec.py
+└── tests
+    ├── backward_compatibility
+    │   └── test_compatibility.py
+    ├── binary
+    │   ├── test.vspec
+    │   └── test_binary.py
+    ├── ddsidl
+    │   ├── README.md
+    │   └── test.vspec
+    ├── instances
+    │   ├── resources
+    │   │   ├── instance_complex_1.vspec
+    │   │   ├── instance_complex_2.vspec
+    │   │   ├── instance_complex_3.vspec
+    │   │   ├── instance_complex_4.vspec
+    │   │   ├── instance_exclude_node.vspec
+    │   │   ├── instance_extended_attribute.vspec
+    │   │   ├── instance_simple_enum.vspec
+    │   │   ├── instance_simple_enum_list.vspec
+    │   │   ├── instance_simple_range.vspec
+    │   │   └── instance_simple_range_list.vspec
+    │   └── test_instances.py
+    └── vspec
+        ├── test_allowed
+        │   ├── expected.apigear
+        │   │   ├── A.module.yaml
+        │   │   └── A.solution.yaml
+        │   ├── expected.csv
+        │   ├── expected.ddsidl
+        │   ├── expected.franca
+        │   ├── expected.graphql
+        │   ├── expected.json
+        │   ├── expected.yaml
+        │   ├── test.vspec
+        │   └── test_allowed.py
+        ├── test_comment
+        │   ├── expected.apigear
+        │   │   ├── A.module.yaml
+        │   │   └── A.solution.yaml
+        │   ├── expected.csv
+        │   ├── expected.ddsidl
+        │   ├── expected.franca
+        │   ├── expected.graphql
+        │   ├── expected.json
+        │   ├── expected.jsonschema
+        │   ├── expected.yaml
+        │   └── test.vspec
+        ├── test_consistency
+        │   ├── data
+        │   │   ├── q_1.yaml
+        │   │   ├── s_1.yaml
+        │   │   ├── s_2.yaml
+        │   │   ├── s_3.yaml
+        │   │   ├── s_4.yaml
+        │   │   ├── s_5.yaml
+        │   │   ├── s_6.yaml
+        │   │   ├── s_7.yaml
+        │   │   ├── s_8.yaml
+        │   │   ├── s_9.yaml
+        │   │   ├── u_1.yaml
+        │   │   ├── u_2.yaml
+        │   │   ├── u_3.yaml
+        │   │   └── u_4.yaml
+        │   └── test_consistency.py
+        ├── test_datatypes
+        │   ├── expected.apigear
+        │   │   ├── A.module.yaml
+        │   │   └── A.solution.yaml
+        │   ├── expected.csv
+        │   ├── expected.ddsidl
+        │   ├── expected.franca
+        │   ├── expected.go
+        │   ├── expected.graphql
+        │   ├── expected.json
+        │   ├── expected.jsonschema
+        │   ├── expected.samm
+        │   │   └── com.covesa.vss.spec
+        │   │       └── 1.0.0
+        │   │           └── A.ttl
+        │   ├── expected.yaml
+        │   └── test.vspec
+        ├── test_datatypes_error
+        │   ├── test.vspec
+        │   ├── test_datatype_branch.vspec
+        │   └── test_datatypes_error.py
+        ├── test_datatypes_pattern
+        │   ├── test_datatypes_pattern.py
+        │   ├── test_pattern_no_allowed_array_match.vspec
+        │   ├── test_pattern_no_allowed_match.vspec
+        │   ├── test_pattern_no_default_array_match.vspec
+        │   ├── test_pattern_no_default_match.vspec
+        │   ├── test_pattern_ok.vspec
+        │   └── test_pattern_wrong_datatype.vspec
+        ├── test_default_unit
+        │   ├── expected_default.json
+        │   ├── signals_with_default_units.vspec
+        │   ├── test_default_units.py
+        │   └── units.yaml
+        ├── test_description_error
+        │   ├── correct.vspec
+        │   ├── no_description_branch.vspec
+        │   ├── no_description_signal.vspec
+        │   ├── no_description_type_branch.vspec
+        │   ├── no_description_type_property.vspec
+        │   ├── no_description_type_struct.vspec
+        │   └── test_description_error.py
+        ├── test_exporter_go
+        │   ├── expected.go
+        │   ├── test.vspec
+        │   └── types.vspec
+        ├── test_extended
+        │   ├── test.vspec
+        │   └── test_extended.py
+        ├── test_faulty_type
+        │   ├── test.vspec
+        │   └── test_faulty_type.py
+        ├── test_faulty_vspec_format
+        │   ├── test_faulty_vspec_format.py
+        │   ├── test_single_level.vspec
+        │   └── test_string_as_child.vspec
+        ├── test_generic.py
+        ├── test_include
+        │   ├── expected.json
+        │   ├── include.vspec
+        │   ├── include_b.vspec
+        │   ├── include_c.vspec
+        │   ├── test.vspec
+        │   ├── test_error.vspec
+        │   └── test_include.py
+        ├── test_instances
+        │   ├── expected.apigear
+        │   │   ├── A.module.yaml
+        │   │   └── A.solution.yaml
+        │   ├── expected.csv
+        │   ├── expected.ddsidl
+        │   ├── expected.franca
+        │   ├── expected.go
+        │   ├── expected.graphql
+        │   ├── expected.json
+        │   ├── expected.jsonschema
+        │   ├── expected.samm
+        │   │   └── com.covesa.vss.spec
+        │   │       └── 1.0.0
+        │   │           ├── A.ttl
+        │   │           └── B.ttl
+        │   ├── expected.yaml
+        │   └── test.vspec
+        ├── test_isinstance
+        │   ├── test.vspec
+        │   └── test_isinstance.py
+        ├── test_min_max
+        │   ├── expected.apigear
+        │   │   ├── A.module.yaml
+        │   │   └── A.solution.yaml
+        │   ├── expected.csv
+        │   ├── expected.ddsidl
+        │   ├── expected.franca
+        │   ├── expected.go
+        │   ├── expected.graphql
+        │   ├── expected.json
+        │   ├── expected.jsonschema
+        │   ├── expected.samm
+        │   │   └── com.covesa.vss.spec
+        │   │       └── 1.0.0
+        │   │           └── A.ttl
+        │   ├── expected.yaml
+        │   └── test.vspec
+        ├── test_multiple_type_trees
+        │   ├── struct1.vspec
+        │   ├── struct2.vspec
+        │   ├── test.vspec
+        │   └── test_multiple_type_trees.py
+        ├── test_no_expand
+        │   ├── expected.csv
+        │   ├── expected.fidl
+        │   ├── expected.graphql
+        │   ├── expected.idl
+        │   ├── expected.json
+        │   ├── expected.proto
+        │   ├── expected.yaml
+        │   ├── expected_overlay_expand.json
+        │   ├── expected_overlay_no_expand.json
+        │   ├── overlay.vspec
+        │   ├── test.vspec
+        │   └── test_no_expand.py
+        ├── test_node_removal
+        │   ├── test_files
+        │   │   ├── test.vspec
+        │   │   ├── test_del_branch_overlay.vspec
+        │   │   ├── test_del_instance_overlay.vspec
+        │   │   ├── test_del_node_overlay.vspec
+        │   │   ├── test_deleted_branch.vspec
+        │   │   └── test_deleted_node.vspec
+        │   └── test_node_removal.py
+        ├── test_null
+        │   ├── expected.yaml
+        │   ├── test.vspec
+        │   └── test_null.py
+        ├── test_overlay
+        │   ├── expected_explicit_branches.json
+        │   ├── expected_implicit_branches.json
+        │   ├── expected_no_datatype.json
+        │   ├── expected_no_type.json
+        │   ├── overlay_error.vspec
+        │   ├── overlay_explicit_branches.vspec
+        │   ├── overlay_implicit_branch_no_description.vspec
+        │   ├── overlay_implicit_branches.vspec
+        │   ├── overlay_no_datatype.vspec
+        │   ├── overlay_no_type.vspec
+        │   ├── test.vspec
+        │   └── test_overlay.py
+        ├── test_overlay_on_instance
+        │   ├── expected.json
+        │   ├── overlay_1.vspec
+        │   ├── overlay_2.vspec
+        │   ├── overlay_no_type_datatype.vspec
+        │   ├── test.vspec
+        │   └── test_overlay_on_instance.py
+        ├── test_overlay_struct
+        │   ├── expected.apigear
+        │   │   ├── A.module.yaml
+        │   │   └── A.solution.yaml
+        │   ├── expected.csv
+        │   ├── expected.json
+        │   ├── expected.proto
+        │   ├── expected.yaml
+        │   ├── expected_struct_using_struct.json
+        │   ├── expected_types.proto
+        │   ├── overlay.vspec
+        │   ├── struct1.vspec
+        │   ├── struct2.vspec
+        │   ├── struct2_using_struct1.vspec
+        │   ├── test.vspec
+        │   └── test_overlay_struct.py
+        ├── test_overlay_struct_array
+        │   ├── expected.apigear
+        │   │   ├── A.module.yaml
+        │   │   └── A.solution.yaml
+        │   ├── expected.csv
+        │   ├── expected.json
+        │   ├── expected.proto
+        │   ├── expected.yaml
+        │   ├── expected_types.proto
+        │   ├── overlay.vspec
+        │   ├── struct1.vspec
+        │   ├── test.vspec
+        │   └── test_overlay_struct_array.py
+        ├── test_quantities.yaml
+        ├── test_static_uids
+        │   ├── test_static_uids.py
+        │   ├── test_vspecs
+        │   │   ├── test.vspec
+        │   │   ├── test_added_attribute.vspec
+        │   │   ├── test_const_id.vspec
+        │   │   ├── test_datatype.vspec
+        │   │   ├── test_deleted_attribute.vspec
+        │   │   ├── test_deprecation.vspec
+        │   │   ├── test_description.vspec
+        │   │   ├── test_name_datatype.vspec
+        │   │   ├── test_overlay.vspec
+        │   │   ├── test_unit.vspec
+        │   │   ├── test_vss_path.vspec
+        │   │   └── units.yaml
+        │   ├── validation.yaml
+        │   └── validation_vspecs
+        │       ├── validation.vspec
+        │       ├── validation_semantic_change_1.vspec
+        │       └── validation_semantic_change_2.vspec
+        ├── test_strict
+        │   ├── correct.vspec
+        │   ├── correct_boolean.vspec
+        │   ├── faulty_case.vspec
+        │   ├── faulty_name_boolean.vspec
+        │   └── test_strict.py
+        ├── test_struct_as_root
+        │   ├── struct1.vspec
+        │   ├── test.vspec
+        │   └── test_struct_as_root.py
+        ├── test_structs
+        │   ├── ExpectedSignals.proto
+        │   ├── ExpectedSignals2.proto
+        │   ├── TestBranch1.vspec
+        │   ├── TestBranch2.vspec
+        │   ├── TestBranch3.vspec
+        │   ├── VehicleDataTypes
+        │   │   ├── TestBranch1
+        │   │   │   └── ExpectedTestBranch1.proto
+        │   │   ├── TestBranch2
+        │   │   │   └── ExpectedTestBranch2.proto
+        │   │   └── TestBranch3
+        │   │       └── ExpectedTestBranch3.proto
+        │   ├── VehicleDataTypes.vspec
+        │   ├── VehicleDataTypes2.vspec
+        │   ├── VehicleDataTypesFlat.vspec
+        │   ├── VehicleDataTypesInvalidStruct.vspec
+        │   ├── VehicleDataTypesInvalidStructWithOrphanProperties.vspec
+        │   ├── VehicleDataTypesInvalidStructWithQualifiedName.vspec
+        │   ├── VehicleDataTypesStructWithDataType.vspec
+        │   ├── VehicleDataTypesStructWithUnit.vspec
+        │   ├── VehicleDataTypesWithCircularRefs.vspec
+        │   ├── expected-signals-types.apigear
+        │   │   ├── A.module.yaml
+        │   │   └── A.solution.yaml
+        │   ├── expected-signals-types.csv
+        │   ├── expected-signals-types.idl
+        │   ├── expected-signals-types.json
+        │   ├── expected-signals-types.yaml
+        │   ├── expected-signals.csv
+        │   ├── expected-signals.json
+        │   ├── expected-signals.yaml
+        │   ├── expected.csv
+        │   ├── expected.json
+        │   ├── expected.yaml
+        │   ├── out.apigear
+        │   │   ├── A.module.yaml
+        │   │   └── A.solution.yaml
+        │   ├── struct_default_model_nok.vspec
+        │   ├── struct_default_model_ok.vspec
+        │   ├── struct_default_types.vspec
+        │   ├── test-invalid-datatypes.vspec
+        │   ├── test.idl
+        │   ├── test.vspec
+        │   ├── test2.vspec
+        │   ├── test_data_type_parsing.py
+        │   ├── test_default.py
+        │   └── test_with_unit_on_struct_signal.vspec
+        ├── test_type_error
+        │   ├── branch_in_signal.vspec
+        │   ├── branch_wrong_case.vspec
+        │   ├── correct.vspec
+        │   ├── no_type_branch.vspec
+        │   ├── no_type_overlay.vspec
+        │   ├── no_type_property.vspec
+        │   ├── no_type_signal.vspec
+        │   ├── no_type_struct.vspec
+        │   └── test_type_error.py
+        ├── test_types_with_uuid
+        │   ├── expected_no_uuid.csv
+        │   ├── expected_no_uuid.ddsidl
+        │   ├── expected_no_uuid.franca
+        │   ├── expected_no_uuid.json
+        │   ├── expected_no_uuid.yaml
+        │   ├── expected_uuid.csv
+        │   ├── expected_uuid.ddsidl
+        │   ├── expected_uuid.franca
+        │   ├── expected_uuid.json
+        │   ├── expected_uuid.yaml
+        │   ├── test.vspec
+        │   └── test_uuid.py
+        ├── test_units
+        │   ├── expected_special.json
+        │   ├── quantities.yaml
+        │   ├── quantities_no_def.yaml
+        │   ├── quantity_volym.yaml
+        │   ├── signals_with_special_units.vspec
+        │   ├── test_units.py
+        │   ├── units_all.yaml
+        │   ├── units_hogshead.yaml
+        │   └── units_puncheon.yaml
+        ├── test_units.yaml
+        └── test_units_no_quantity
+            ├── expected.json
+            ├── test.vspec
+            ├── test_quantities.yaml
+            └── test_units_no_quantity.py
+
+88 directories, 400 files

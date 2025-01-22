@@ -1,0 +1,4878 @@
+{
+  "name": "Vehicle",
+  "children": [
+    {
+      "name": "Branches",
+      "children": [
+        {
+          "name": "Instanced",
+          "children": [
+            {
+              "name": "Powertrain",
+              "children": [
+                {
+                  "name": "TractionBattery",
+                  "children": [
+                    {
+                      "name": "Charging",
+                      "children": [
+                        {
+                          "name": "ChargingPort",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Body",
+              "children": [
+                {
+                  "name": "Trunk",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Windshield",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Lights",
+                  "children": [
+                    {
+                      "name": "Beam",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Fog",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "DirectionIndicator",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Mirrors",
+                  "children": [],
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Cabin",
+              "children": [
+                {
+                  "name": "HVAC",
+                  "children": [
+                    {
+                      "name": "Station",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Light",
+                  "children": [
+                    {
+                      "name": "Spotlight",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "AmbientLight",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Door",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Seat",
+                  "children": [],
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Chassis",
+              "children": [
+                {
+                  "name": "Axle",
+                  "children": [
+                    {
+                      "name": "Wheel",
+                      "children": [],
+                      "value": 1
+                    }
+                  ],
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "OBD",
+              "children": [
+                {
+                  "name": "O2",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "O2WR",
+                  "children": [],
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Occupant",
+              "children": [],
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "not Instanced",
+          "children": [
+            {
+              "name": "Powertrain",
+              "children": [
+                {
+                  "name": "CombustionEngine",
+                  "children": [
+                    {
+                      "name": "EngineOil",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "EngineCoolant",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "DieselExhaustFluid",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "DieselParticulateFilter",
+                      "children": [],
+                      "value": 1
+                    }
+                  ],
+                  "value": 1
+                },
+                {
+                  "name": "Transmission",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "ElectricMotor",
+                  "children": [
+                    {
+                      "name": "EngineCoolant",
+                      "children": [],
+                      "value": 1
+                    }
+                  ],
+                  "value": 1
+                },
+                {
+                  "name": "TractionBattery",
+                  "children": [
+                    {
+                      "name": "Temperature",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "CellVoltage",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "StateOfCharge",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Charging",
+                      "children": [
+                        {
+                          "name": "MaximumChargingCurrent",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "ChargeCurrent",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "ChargeVoltage",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Location",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Timer",
+                          "children": [],
+                          "value": 1
+                        }
+                      ],
+                      "value": 1
+                    },
+                    {
+                      "name": "DCDC",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "BatteryConditioning",
+                      "children": [],
+                      "value": 1
+                    }
+                  ],
+                  "value": 1
+                },
+                {
+                  "name": "FuelSystem",
+                  "children": [],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            },
+            {
+              "name": "Body",
+              "children": [
+                {
+                  "name": "Hood",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Horn",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Raindetection",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Windshield",
+                  "children": [
+                    {
+                      "name": "Wiping",
+                      "children": [
+                        {
+                          "name": "System",
+                          "children": [],
+                          "value": 1
+                        }
+                      ],
+                      "value": 1
+                    },
+                    {
+                      "name": "WasherFluid",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Lights",
+                  "children": [
+                    {
+                      "name": "Running",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Backup",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Parking",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "LicensePlate",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Brake",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Hazard",
+                      "children": [],
+                      "value": 1
+                    }
+                  ],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            },
+            {
+              "name": "Cabin",
+              "children": [
+                {
+                  "name": "RearShade",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "HVAC",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Infotainment",
+                  "children": [
+                    {
+                      "name": "Media",
+                      "children": [
+                        {
+                          "name": "Played",
+                          "children": [],
+                          "value": 1
+                        }
+                      ],
+                      "value": 1
+                    },
+                    {
+                      "name": "Navigation",
+                      "children": [
+                        {
+                          "name": "DestinationSet",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Map",
+                          "children": [],
+                          "value": 1
+                        }
+                      ],
+                      "value": 1
+                    },
+                    {
+                      "name": "HMI",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "SmartphoneProjection",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "SmartphoneScreenMirroring",
+                      "children": [],
+                      "value": 1
+                    }
+                  ],
+                  "value": 1
+                },
+                {
+                  "name": "Sunroof",
+                  "children": [
+                    {
+                      "name": "Shade",
+                      "children": [],
+                      "value": 1
+                    }
+                  ],
+                  "value": 1
+                },
+                {
+                  "name": "RearviewMirror",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Light",
+                  "children": [
+                    {
+                      "name": "InteractiveLightBar",
+                      "children": [],
+                      "value": 1
+                    }
+                  ],
+                  "value": 1
+                },
+                {
+                  "name": "Door",
+                  "children": [
+                    {
+                      "name": "Window",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Shade",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Seat",
+                  "children": [
+                    {
+                      "name": "Occupant",
+                      "children": [
+                        {
+                          "name": "Identifier",
+                          "children": [],
+                          "value": 1
+                        }
+                      ],
+                      "value": 1
+                    },
+                    {
+                      "name": "Backrest",
+                      "children": [
+                        {
+                          "name": "Lumbar",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "SideBolster",
+                          "children": [],
+                          "value": 1
+                        }
+                      ],
+                      "value": 1
+                    },
+                    {
+                      "name": "Seating",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Headrest",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Airbag",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Switch",
+                      "children": [
+                        {
+                          "name": "Backrest",
+                          "children": [
+                            {
+                              "name": "Lumbar",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "SideBolster",
+                              "children": [],
+                              "value": 1
+                            }
+                          ],
+                          "value": 1
+                        },
+                        {
+                          "name": "Seating",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Headrest",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Massage",
+                          "children": [],
+                          "value": 1
+                        }
+                      ],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Convertible",
+                  "children": [],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            },
+            {
+              "name": "ADAS",
+              "children": [
+                {
+                  "name": "CruiseControl",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "LaneDepartureDetection",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "ObstacleDetection",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "ABS",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "TCS",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "ESC",
+                  "children": [
+                    {
+                      "name": "RoadFriction",
+                      "children": [],
+                      "value": 1
+                    }
+                  ],
+                  "value": 1
+                },
+                {
+                  "name": "EBD",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "EBA",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "DMS",
+                  "children": [],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            },
+            {
+              "name": "Chassis",
+              "children": [
+                {
+                  "name": "Axle",
+                  "children": [
+                    {
+                      "name": "Wheel",
+                      "children": [
+                        {
+                          "name": "Brake",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Tire",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "ParkingBrake",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "SteeringWheel",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Accelerator",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Brake",
+                  "children": [],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            },
+            {
+              "name": "OBD",
+              "children": [
+                {
+                  "name": "Status",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Catalyst",
+                  "children": [
+                    {
+                      "name": "Bank1",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Bank2",
+                      "children": [],
+                      "value": 1
+                    }
+                  ],
+                  "value": 1
+                },
+                {
+                  "name": "DriveCycleStatus",
+                  "children": [],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            },
+            {
+              "name": "Driver",
+              "children": [
+                {
+                  "name": "Identifier",
+                  "children": [],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            },
+            {
+              "name": "Occupant",
+              "children": [
+                {
+                  "name": "Identifier",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "HeadPosition",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "MidEyeGaze",
+                  "children": [],
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Exterior",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "Service",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "Connectivity",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "VersionVSS",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "VehicleIdentification",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "LowVoltageBattery",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "Acceleration",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "AngularVelocity",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "Trailer",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "CurrentLocation",
+              "children": [
+                {
+                  "name": "GNSSReceiver",
+                  "children": [
+                    {
+                      "name": "MountingPosition",
+                      "children": [],
+                      "value": 1
+                    }
+                  ],
+                  "value": 1
+                }
+              ],
+              "value": 1
+            },
+            {
+              "name": "Diagnostics",
+              "children": [],
+              "value": 1
+            }
+          ],
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Properties",
+      "children": [
+        {
+          "name": "Attributes (Static)",
+          "children": [
+            {
+              "name": "Powertrain",
+              "children": [
+                {
+                  "name": "CombustionEngine",
+                  "children": [
+                    {
+                      "name": "EngineCode",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Displacement",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "StrokeLength",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Bore",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Configuration",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "NumberOfCylinders",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "NumberOfValvesPerCylinder",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "CompressionRatio",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "EngineOilCapacity",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "EngineCoolantCapacity",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "MaxPower",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "MaxTorque",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "AspirationType",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "EngineOil",
+                      "children": [
+                        {
+                          "name": "Capacity",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "EngineCoolant",
+                      "children": [
+                        {
+                          "name": "Capacity",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "DieselExhaustFluid",
+                      "children": [
+                        {
+                          "name": "Capacity",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Transmission",
+                  "children": [
+                    {
+                      "name": "Type",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "GearCount",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "DriveType",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "ElectricMotor",
+                  "children": [
+                    {
+                      "name": "EngineCode",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "MaxPower",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "MaxTorque",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "MaxRegenPower",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "MaxRegenTorque",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "EngineCoolant",
+                      "children": [
+                        {
+                          "name": "Capacity",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "TractionBattery",
+                  "children": [
+                    {
+                      "name": "Id",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "ProductionDate",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "GrossCapacity",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "NominalVoltage",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "MaxVoltage",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Charging",
+                      "children": [
+                        {
+                          "name": "ChargingPort",
+                          "children": [
+                            {
+                              "name": "SupportedInletTypes",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "ChargePlugType",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "ChargePortType",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "ChargePortPosition",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "FuelSystem",
+                  "children": [
+                    {
+                      "name": "SupportedFuelTypes",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "SupportedFuel",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "HybridType",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "TankCapacity",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "RefuelPortPosition",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Type",
+                  "children": [],
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Body",
+              "children": [
+                {
+                  "name": "BodyType",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "RefuelPosition",
+                  "children": [],
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Cabin",
+              "children": [
+                {
+                  "name": "Infotainment",
+                  "children": [
+                    {
+                      "name": "SmartphoneProjection",
+                      "children": [
+                        {
+                          "name": "SupportedMode",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "DoorCount",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "DriverPosition",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "SeatRowCount",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "SeatPosCount",
+                  "children": [],
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "ADAS",
+              "children": [
+                {
+                  "name": "SupportedAutonomyLevel",
+                  "children": [],
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Chassis",
+              "children": [
+                {
+                  "name": "Wheelbase",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Axle",
+                  "children": [
+                    {
+                      "name": "TreadWidth",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "TrackWidth",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "AxleWidth",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "WheelCount",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "WheelDiameter",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "WheelWidth",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "TireDiameter",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "TireWidth",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "TireAspectRatio",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "AxleCount",
+                  "children": [],
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "OBD",
+              "children": [
+                {
+                  "name": "PidsA",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "PidsB",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "PidsC",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Status",
+                  "children": [
+                    {
+                      "name": "IgnitionType",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "OBDStandards",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "FuelType",
+                  "children": [],
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "VersionVSS",
+              "children": [
+                {
+                  "name": "Major",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Minor",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Patch",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Label",
+                  "children": [],
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "VehicleIdentification",
+              "children": [
+                {
+                  "name": "VIN",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "WMI",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Brand",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Model",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Year",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "AcrissCode",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "BodyType",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "DateVehicleFirstRegistered",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "LicensePlate",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "MeetsEmissionStandard",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "ProductionDate",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "PurchaseDate",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "VehicleModelDate",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "VehicleConfiguration",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "VehicleSeatingCapacity",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "VehicleSpecialUsage",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "VehicleExteriorColor",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "VehicleInteriorColor",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "VehicleInteriorType",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "KnownVehicleDamages",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "OptionalExtras",
+                  "children": [],
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "LowVoltageBattery",
+              "children": [
+                {
+                  "name": "NominalVoltage",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "NominalCapacity",
+                  "children": [],
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "StartTime",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "RoofLoad",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "CargoVolume",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "EmissionsCO2",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "CurbWeight",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "GrossWeight",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "MaxTowWeight",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "MaxTowBallWeight",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "Length",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "Height",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "Width",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "WidthExcludingMirrors",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "WidthIncludingMirrors",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "WidthFoldedMirrors",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "TurningDiameter",
+              "children": [],
+              "value": 1
+            },
+            {
+              "name": "CurrentLocation",
+              "children": [
+                {
+                  "name": "GNSSReceiver",
+                  "children": [
+                    {
+                      "name": "MountingPosition",
+                      "children": [
+                        {
+                          "name": "X",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Y",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Z",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Changing Properties",
+          "children": [
+            {
+              "name": "Sensors",
+              "children": [
+                {
+                  "name": "Powertrain",
+                  "children": [
+                    {
+                      "name": "CombustionEngine",
+                      "children": [
+                        {
+                          "name": "EngineOilLevel",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "OilLifeRemaining",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsRunning",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Speed",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "EngineHours",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IdleHours",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "ECT",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "EOT",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "EngineOil",
+                          "children": [
+                            {
+                              "name": "Level",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "LifeRemaining",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Temperature",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "EngineCoolant",
+                          "children": [
+                            {
+                              "name": "Temperature",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Level",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "LifeRemaining",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "MAP",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "MAF",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "TPS",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "EOP",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Power",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Torque",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "DieselExhaustFluid",
+                          "children": [
+                            {
+                              "name": "Level",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Range",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "IsLevelLow",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "DieselParticulateFilter",
+                          "children": [
+                            {
+                              "name": "InletTemperature",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "OutletTemperature",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "DeltaPressure",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Transmission",
+                      "children": [
+                        {
+                          "name": "TravelledDistance",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "CurrentGear",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Temperature",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "ClutchWear",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ElectricMotor",
+                      "children": [
+                        {
+                          "name": "Speed",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "TimeInUse",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Temperature",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "CoolantTemperature",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "EngineCoolant",
+                          "children": [
+                            {
+                              "name": "Temperature",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Level",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "LifeRemaining",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Power",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Torque",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "TractionBattery",
+                      "children": [
+                        {
+                          "name": "ErrorCodes",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsPowerConnected",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsGroundConnected",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Temperature",
+                          "children": [
+                            {
+                              "name": "Average",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Min",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Max",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "CellTemperature",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "CellVoltage",
+                          "children": [
+                            {
+                              "name": "Min",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "IdMin",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Max",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "IdMax",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "CellVoltages",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "NetCapacity",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "StateOfHealth",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "StateOfCharge",
+                          "children": [
+                            {
+                              "name": "Current",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Displayed",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "CurrentEnergy",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "CurrentVoltage",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "CurrentCurrent",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "CurrentPower",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "AccumulatedChargedEnergy",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "AccumulatedConsumedEnergy",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "AccumulatedChargedThroughput",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "AccumulatedConsumedThroughput",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "PowerLoss",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Range",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "TimeRemaining",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Charging",
+                          "children": [
+                            {
+                              "name": "ChargingPort",
+                              "children": [
+                                {
+                                  "name": "IsChargingCableConnected",
+                                  "children": [],
+                                  "value": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "MaximumChargingCurrent",
+                              "children": [
+                                {
+                                  "name": "DC",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "Phase1",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "Phase2",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "Phase3",
+                                  "children": [],
+                                  "value": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "IsChargingCableConnected",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "IsCharging",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "IsDischarging",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "ChargeCurrent",
+                              "children": [
+                                {
+                                  "name": "DC",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "Phase1",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "Phase2",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "Phase3",
+                                  "children": [],
+                                  "value": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "ChargeVoltage",
+                              "children": [
+                                {
+                                  "name": "DC",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "Phase1",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "Phase2",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "Phase3",
+                                  "children": [],
+                                  "value": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "AveragePower",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "MaxPower",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "EvseId",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Location",
+                              "children": [
+                                {
+                                  "name": "Latitude",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "Longitude",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "Altitude",
+                                  "children": [],
+                                  "value": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "PowerLoss",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Temperature",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "ChargeRate",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "TimeToComplete",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "DCDC",
+                          "children": [
+                            {
+                              "name": "PowerLoss",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Temperature",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "BatteryConditioning",
+                          "children": [
+                            {
+                              "name": "IsActive",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "IsOngoing",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "FuelSystem",
+                      "children": [
+                        {
+                          "name": "AbsoluteLevel",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "RelativeLevel",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Range",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "TimeRemaining",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "InstantConsumption",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "AverageConsumption",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "ConsumptionSinceStart",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsEngineStopStartEnabled",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsFuelLevelLow",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AccumulatedBrakingEnergy",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Range",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "TimeRemaining",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Body",
+                  "children": [
+                    {
+                      "name": "Raindetection",
+                      "children": [
+                        {
+                          "name": "Intensity",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Windshield",
+                      "children": [
+                        {
+                          "name": "Wiping",
+                          "children": [
+                            {
+                              "name": "System",
+                              "children": [
+                                {
+                                  "name": "DriveCurrent",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "IsWiping",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "IsEndingWipeCycle",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "IsWiperError",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "IsPositionReached",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "IsBlocked",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "IsOverheated",
+                                  "children": [],
+                                  "value": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "WiperWear",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "IsWipersWorn",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "WasherFluid",
+                          "children": [
+                            {
+                              "name": "IsLevelLow",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Level",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Lights",
+                      "children": [
+                        {
+                          "name": "Beam",
+                          "children": [
+                            {
+                              "name": "IsDefect",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Running",
+                          "children": [
+                            {
+                              "name": "IsDefect",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Backup",
+                          "children": [
+                            {
+                              "name": "IsDefect",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Parking",
+                          "children": [
+                            {
+                              "name": "IsDefect",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Fog",
+                          "children": [
+                            {
+                              "name": "IsDefect",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "LicensePlate",
+                          "children": [
+                            {
+                              "name": "IsDefect",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Brake",
+                          "children": [
+                            {
+                              "name": "IsDefect",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Hazard",
+                          "children": [
+                            {
+                              "name": "IsDefect",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "DirectionIndicator",
+                          "children": [
+                            {
+                              "name": "IsDefect",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Cabin",
+                  "children": [
+                    {
+                      "name": "HVAC",
+                      "children": [
+                        {
+                          "name": "AmbientAirTemperature",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Infotainment",
+                      "children": [
+                        {
+                          "name": "Media",
+                          "children": [
+                            {
+                              "name": "Played",
+                              "children": [
+                                {
+                                  "name": "Artist",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "Album",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "Track",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "URI",
+                                  "children": [],
+                                  "value": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "DeclinedURI",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "HMI",
+                          "children": [
+                            {
+                              "name": "CurrentLanguage",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "LastActionTime",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Sunroof",
+                      "children": [
+                        {
+                          "name": "Position",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Light",
+                      "children": [
+                        {
+                          "name": "PerceivedAmbientLight",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Door",
+                      "children": [
+                        {
+                          "name": "IsChildLockActive",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Seat",
+                      "children": [
+                        {
+                          "name": "IsOccupied",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Occupant",
+                          "children": [
+                            {
+                              "name": "Identifier",
+                              "children": [
+                                {
+                                  "name": "Subject",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "Issuer",
+                                  "children": [],
+                                  "value": 1
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "IsBelted",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Airbag",
+                          "children": [
+                            {
+                              "name": "IsDeployed",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Convertible",
+                      "children": [
+                        {
+                          "name": "Status",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "ADAS",
+                  "children": [
+                    {
+                      "name": "ActiveAutonomyLevel",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "CruiseControl",
+                      "children": [
+                        {
+                          "name": "IsError",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "LaneDepartureDetection",
+                      "children": [
+                        {
+                          "name": "IsWarning",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsError",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ObstacleDetection",
+                      "children": [
+                        {
+                          "name": "IsWarning",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsError",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ABS",
+                      "children": [
+                        {
+                          "name": "IsError",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsEngaged",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "TCS",
+                      "children": [
+                        {
+                          "name": "IsError",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsEngaged",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ESC",
+                      "children": [
+                        {
+                          "name": "IsError",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsEngaged",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsStrongCrossWindDetected",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "RoadFriction",
+                          "children": [
+                            {
+                              "name": "MostProbable",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "LowerBound",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "UpperBound",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "EBD",
+                      "children": [
+                        {
+                          "name": "IsError",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsEngaged",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "EBA",
+                      "children": [
+                        {
+                          "name": "IsError",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsEngaged",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "DMS",
+                      "children": [
+                        {
+                          "name": "IsWarning",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsError",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Chassis",
+                  "children": [
+                    {
+                      "name": "Axle",
+                      "children": [
+                        {
+                          "name": "SteeringAngle",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Wheel",
+                          "children": [
+                            {
+                              "name": "Brake",
+                              "children": [
+                                {
+                                  "name": "FluidLevel",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "IsFluidLevelLow",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "PadWear",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "IsBrakesWorn",
+                                  "children": [],
+                                  "value": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Tire",
+                              "children": [
+                                {
+                                  "name": "Pressure",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "IsPressureLow",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "Temperature",
+                                  "children": [],
+                                  "value": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Speed",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "AngularSpeed",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "SteeringWheel",
+                      "children": [
+                        {
+                          "name": "Angle",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Accelerator",
+                      "children": [
+                        {
+                          "name": "PedalPosition",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Brake",
+                      "children": [
+                        {
+                          "name": "PedalPosition",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsDriverEmergencyBrakingDetected",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "OBD",
+                  "children": [
+                    {
+                      "name": "Status",
+                      "children": [
+                        {
+                          "name": "IsMILOn",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "DTCCount",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "DTCList",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "FreezeDTC",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "FuelStatus",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "EngineLoad",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "CoolantTemperature",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "ShortTermFuelTrim1",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "LongTermFuelTrim1",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "ShortTermFuelTrim2",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "LongTermFuelTrim2",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "FuelPressure",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "MAP",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "EngineSpeed",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Speed",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "TimingAdvance",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "IntakeTemp",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "MAF",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "ThrottlePosition",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "AirStatus",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "OxygenSensorsIn2Banks",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "O2",
+                      "children": [
+                        {
+                          "name": "Voltage",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "ShortTermFuelTrim",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "OxygenSensorsIn4Banks",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "IsPTOActive",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "RunTime",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "DistanceWithMIL",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "FuelRailPressureVac",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "FuelRailPressureDirect",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "O2WR",
+                      "children": [
+                        {
+                          "name": "Lambda",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Voltage",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Current",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "CommandedEGR",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "EGRError",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "CommandedEVAP",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "FuelLevel",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "WarmupsSinceDTCClear",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "DistanceSinceDTCClear",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "EVAPVaporPressure",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "BarometricPressure",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Catalyst",
+                      "children": [
+                        {
+                          "name": "Bank1",
+                          "children": [
+                            {
+                              "name": "Temperature1",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Temperature2",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Bank2",
+                          "children": [
+                            {
+                              "name": "Temperature1",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Temperature2",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "DriveCycleStatus",
+                      "children": [
+                        {
+                          "name": "IsMILOn",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "DTCCount",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IgnitionType",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ControlModuleVoltage",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "AbsoluteLoad",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "CommandedEquivalenceRatio",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "RelativeThrottlePosition",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "AmbientAirTemperature",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "ThrottlePositionB",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "ThrottlePositionC",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "AcceleratorPositionD",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "AcceleratorPositionE",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "AcceleratorPositionF",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "ThrottleActuator",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "RunTimeMIL",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "TimeSinceDTCCleared",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "MaxMAF",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "EthanolPercent",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "EVAPVaporPressureAbsolute",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "EVAPVaporPressureAlternate",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "ShortTermO2Trim1",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "ShortTermO2Trim3",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "LongTermO2Trim1",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "LongTermO2Trim3",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "ShortTermO2Trim2",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "ShortTermO2Trim4",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "LongTermO2Trim2",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "LongTermO2Trim4",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "FuelRailPressureAbsolute",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "RelativeAcceleratorPosition",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "HybridBatteryRemaining",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "OilTemperature",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "FuelInjectionTiming",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "FuelRate",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Driver",
+                  "children": [
+                    {
+                      "name": "Identifier",
+                      "children": [
+                        {
+                          "name": "Subject",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Issuer",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "DistractionLevel",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "IsEyesOnRoad",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "IsHandsOnWheel",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "AttentiveProbability",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "FatigueLevel",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "HeartRate",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Occupant",
+                  "children": [
+                    {
+                      "name": "Identifier",
+                      "children": [
+                        {
+                          "name": "Subject",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Issuer",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "HeadPosition",
+                      "children": [
+                        {
+                          "name": "X",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Y",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Z",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Yaw",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Pitch",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Roll",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "MidEyeGaze",
+                      "children": [
+                        {
+                          "name": "Azimuth",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Elevation",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Exterior",
+                  "children": [
+                    {
+                      "name": "AirTemperature",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Humidity",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "LightIntensity",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Service",
+                  "children": [
+                    {
+                      "name": "IsServiceDue",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "DistanceToService",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "TimeToService",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Connectivity",
+                  "children": [
+                    {
+                      "name": "IsConnectivityAvailable",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "LowVoltageSystemState",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "LowVoltageBattery",
+                  "children": [
+                    {
+                      "name": "CurrentVoltage",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "CurrentCurrent",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Speed",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "TraveledDistance",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "TraveledDistanceSinceStart",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "TripDuration",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "IsBrokenDown",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "IsMoving",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "AverageSpeed",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Acceleration",
+                  "children": [
+                    {
+                      "name": "Longitudinal",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Lateral",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Vertical",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "AngularVelocity",
+                  "children": [
+                    {
+                      "name": "Roll",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Pitch",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Yaw",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "CurrentOverallWeight",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "Trailer",
+                  "children": [
+                    {
+                      "name": "IsConnected",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "CurrentLocation",
+                  "children": [
+                    {
+                      "name": "Timestamp",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Latitude",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Longitude",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Heading",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "HorizontalAccuracy",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Altitude",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "VerticalAccuracy",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "GNSSReceiver",
+                      "children": [
+                        {
+                          "name": "FixType",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Diagnostics",
+                  "children": [
+                    {
+                      "name": "DTCCount",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "DTCList",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Actuators",
+              "children": [
+                {
+                  "name": "Powertrain",
+                  "children": [
+                    {
+                      "name": "Transmission",
+                      "children": [
+                        {
+                          "name": "SelectedGear",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsParkLockEngaged",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsLowRangeEngaged",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsElectricalPowertrainEngaged",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "PerformanceMode",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "GearChangeMode",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "ClutchEngagement",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "DiffLockFrontEngagement",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "DiffLockRearEngagement",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "TorqueDistribution",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "TractionBattery",
+                      "children": [
+                        {
+                          "name": "Charging",
+                          "children": [
+                            {
+                              "name": "ChargingPort",
+                              "children": [
+                                {
+                                  "name": "IsFlapOpen",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "IsChargingCableLocked",
+                                  "children": [],
+                                  "value": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "ChargeLimit",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "ChargePortFlap",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "IsChargePortFlapOpen",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "IsChargingCableLocked",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Mode",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "StartStopCharging",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Timer",
+                              "children": [
+                                {
+                                  "name": "Mode",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "Time",
+                                  "children": [],
+                                  "value": 1
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "BatteryConditioning",
+                          "children": [
+                            {
+                              "name": "RequestedMode",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "StartTime",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "TargetTime",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "TargetTemperature",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "FuelSystem",
+                      "children": [
+                        {
+                          "name": "IsFuelPortFlapOpen",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PowerOptimizeLevel",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "IsAutoPowerOptimize",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Body",
+                  "children": [
+                    {
+                      "name": "Hood",
+                      "children": [
+                        {
+                          "name": "IsOpen",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Position",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Switch",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Trunk",
+                      "children": [
+                        {
+                          "name": "IsLightOn",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsLocked",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsOpen",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Position",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Switch",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Horn",
+                      "children": [
+                        {
+                          "name": "IsActive",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Windshield",
+                      "children": [
+                        {
+                          "name": "Wiping",
+                          "children": [
+                            {
+                              "name": "Mode",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Intensity",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "System",
+                              "children": [
+                                {
+                                  "name": "Mode",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "Frequency",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "TargetPosition",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "ActualPosition",
+                                  "children": [],
+                                  "value": 1
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "IsHeatingOn",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Lights",
+                      "children": [
+                        {
+                          "name": "LightSwitch",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsHighBeamSwitchOn",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Beam",
+                          "children": [
+                            {
+                              "name": "IsOn",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Running",
+                          "children": [
+                            {
+                              "name": "IsOn",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Backup",
+                          "children": [
+                            {
+                              "name": "IsOn",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Parking",
+                          "children": [
+                            {
+                              "name": "IsOn",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Fog",
+                          "children": [
+                            {
+                              "name": "IsOn",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "LicensePlate",
+                          "children": [
+                            {
+                              "name": "IsOn",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Brake",
+                          "children": [
+                            {
+                              "name": "IsActive",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Hazard",
+                          "children": [
+                            {
+                              "name": "IsSignaling",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "DirectionIndicator",
+                          "children": [
+                            {
+                              "name": "IsSignaling",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Mirrors",
+                      "children": [
+                        {
+                          "name": "Tilt",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Pan",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsHeatingOn",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsLocked",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsFolded",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "RearMainSpoilerPosition",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "PowerOptimizeLevel",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "IsAutoPowerOptimize",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Cabin",
+                  "children": [
+                    {
+                      "name": "RearShade",
+                      "children": [
+                        {
+                          "name": "IsOpen",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Position",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Switch",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "HVAC",
+                      "children": [
+                        {
+                          "name": "Station",
+                          "children": [
+                            {
+                              "name": "FanSpeed",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Temperature",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "AirDistribution",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "IsRecirculationActive",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsFrontDefrosterActive",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsRearDefrosterActive",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsAirConditioningActive",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "PowerOptimizeLevel",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsAutoPowerOptimize",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Infotainment",
+                      "children": [
+                        {
+                          "name": "Media",
+                          "children": [
+                            {
+                              "name": "Action",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Played",
+                              "children": [
+                                {
+                                  "name": "Source",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "PlaybackRate",
+                                  "children": [],
+                                  "value": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "SelectedURI",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Volume",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Navigation",
+                          "children": [
+                            {
+                              "name": "DestinationSet",
+                              "children": [
+                                {
+                                  "name": "Latitude",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "Longitude",
+                                  "children": [],
+                                  "value": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Mute",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Volume",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "GuidanceVoice",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Map",
+                              "children": [
+                                {
+                                  "name": "IsAutoScaleModeUsed",
+                                  "children": [],
+                                  "value": 1
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "HMI",
+                          "children": [
+                            {
+                              "name": "FontSize",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "DateFormat",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "TimeFormat",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "DistanceUnit",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "FuelVolumeUnit",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "FuelEconomyUnits",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "EVEconomyUnits",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "TemperatureUnit",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "TirePressureUnit",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "SpeedUnit",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "EVEnergyUnits",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Brightness",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "DayNightMode",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "IsScreenAlwaysOn",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "DisplayOffDuration",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "SmartphoneProjection",
+                          "children": [
+                            {
+                              "name": "Active",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Source",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "SmartphoneScreenMirroring",
+                          "children": [
+                            {
+                              "name": "Active",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Source",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PowerOptimizeLevel",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsAutoPowerOptimize",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Sunroof",
+                      "children": [
+                        {
+                          "name": "Switch",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Shade",
+                          "children": [
+                            {
+                              "name": "IsOpen",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Position",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Switch",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "RearviewMirror",
+                      "children": [
+                        {
+                          "name": "DimmingLevel",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Light",
+                      "children": [
+                        {
+                          "name": "IsGloveBoxOn",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsDomeOn",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Spotlight",
+                          "children": [
+                            {
+                              "name": "IsLightOn",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Intensity",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Color",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "AmbientLight",
+                          "children": [
+                            {
+                              "name": "IsLightOn",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Intensity",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Color",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "InteractiveLightBar",
+                          "children": [
+                            {
+                              "name": "Effect",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "IsLightOn",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Intensity",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Color",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Door",
+                      "children": [
+                        {
+                          "name": "Window",
+                          "children": [
+                            {
+                              "name": "IsOpen",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Position",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Switch",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Shade",
+                          "children": [
+                            {
+                              "name": "IsOpen",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Position",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Switch",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "IsLocked",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsOpen",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Position",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Switch",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "IsWindowChildLockEngaged",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "Seat",
+                      "children": [
+                        {
+                          "name": "SeatBeltHeight",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Heating",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Massage",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Position",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Height",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Tilt",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Backrest",
+                          "children": [
+                            {
+                              "name": "Recline",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Lumbar",
+                              "children": [
+                                {
+                                  "name": "Support",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "Height",
+                                  "children": [],
+                                  "value": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "SideBolster",
+                              "children": [
+                                {
+                                  "name": "Support",
+                                  "children": [],
+                                  "value": 1
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Seating",
+                          "children": [
+                            {
+                              "name": "Length",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Headrest",
+                          "children": [
+                            {
+                              "name": "Height",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Angle",
+                              "children": [],
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Switch",
+                          "children": [
+                            {
+                              "name": "IsWarmerEngaged",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "IsCoolerEngaged",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "IsForwardEngaged",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "IsBackwardEngaged",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "IsUpEngaged",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "IsDownEngaged",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "IsTiltForwardEngaged",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "IsTiltBackwardEngaged",
+                              "children": [],
+                              "value": 1
+                            },
+                            {
+                              "name": "Backrest",
+                              "children": [
+                                {
+                                  "name": "IsReclineForwardEngaged",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "IsReclineBackwardEngaged",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "Lumbar",
+                                  "children": [
+                                    {
+                                      "name": "IsMoreSupportEngaged",
+                                      "children": [],
+                                      "value": 1
+                                    },
+                                    {
+                                      "name": "IsLessSupportEngaged",
+                                      "children": [],
+                                      "value": 1
+                                    },
+                                    {
+                                      "name": "IsUpEngaged",
+                                      "children": [],
+                                      "value": 1
+                                    },
+                                    {
+                                      "name": "IsDownEngaged",
+                                      "children": [],
+                                      "value": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "SideBolster",
+                                  "children": [
+                                    {
+                                      "name": "IsMoreSupportEngaged",
+                                      "children": [],
+                                      "value": 1
+                                    },
+                                    {
+                                      "name": "IsLessSupportEngaged",
+                                      "children": [],
+                                      "value": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Seating",
+                              "children": [
+                                {
+                                  "name": "IsForwardEngaged",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "IsBackwardEngaged",
+                                  "children": [],
+                                  "value": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Headrest",
+                              "children": [
+                                {
+                                  "name": "IsUpEngaged",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "IsDownEngaged",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "IsForwardEngaged",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "IsBackwardEngaged",
+                                  "children": [],
+                                  "value": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Massage",
+                              "children": [
+                                {
+                                  "name": "IsIncreaseEngaged",
+                                  "children": [],
+                                  "value": 1
+                                },
+                                {
+                                  "name": "IsDecreaseEngaged",
+                                  "children": [],
+                                  "value": 1
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "HeatingCooling",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PowerOptimizeLevel",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "IsAutoPowerOptimize",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "ADAS",
+                  "children": [
+                    {
+                      "name": "CruiseControl",
+                      "children": [
+                        {
+                          "name": "IsEnabled",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsActive",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "SpeedSet",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "LaneDepartureDetection",
+                      "children": [
+                        {
+                          "name": "IsEnabled",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ObstacleDetection",
+                      "children": [
+                        {
+                          "name": "IsEnabled",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ABS",
+                      "children": [
+                        {
+                          "name": "IsEnabled",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "TCS",
+                      "children": [
+                        {
+                          "name": "IsEnabled",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ESC",
+                      "children": [
+                        {
+                          "name": "IsEnabled",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "EBD",
+                      "children": [
+                        {
+                          "name": "IsEnabled",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "EBA",
+                      "children": [
+                        {
+                          "name": "IsEnabled",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "DMS",
+                      "children": [
+                        {
+                          "name": "IsEnabled",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PowerOptimizeLevel",
+                      "children": [],
+                      "value": 1
+                    },
+                    {
+                      "name": "IsAutoPowerOptimize",
+                      "children": [],
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "name": "Chassis",
+                  "children": [
+                    {
+                      "name": "ParkingBrake",
+                      "children": [
+                        {
+                          "name": "IsEngaged",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "IsAutoApplyEnabled",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    },
+                    {
+                      "name": "SteeringWheel",
+                      "children": [
+                        {
+                          "name": "Tilt",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "Extension",
+                          "children": [],
+                          "value": 1
+                        },
+                        {
+                          "name": "HeatingCooling",
+                          "children": [],
+                          "value": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "TripMeterReading",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "PowerOptimizeLevel",
+                  "children": [],
+                  "value": 1
+                },
+                {
+                  "name": "IsAutoPowerOptimize",
+                  "children": [],
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

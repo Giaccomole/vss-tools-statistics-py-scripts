@@ -1,0 +1,27 @@
+{
+  "name": "Vehicle",
+  "children": [
+
+  {
+    "name": "Branches",
+    "children": [
+      {"name": "Instanced", "value": 1},
+      {"name": "not Instanced", "value": 1}
+        ]
+  },
+
+    {
+      "name": "Properties",
+      "children": [
+             {"name": "Attributes (Static)", "value": 1},
+             
+             {"name": "Changing Properties",
+              "children": [
+              {"name": "Sensors", "value": 1},
+              {"name": "Actuators", "value": 1}
+              ]
+             }
+        ]
+    }
+  ]
+}

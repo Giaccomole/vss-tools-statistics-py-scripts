@@ -1,0 +1,11 @@
+Datatype,Count
+int32,6
+int8,9
+uint32,11
+double,11
+int16,12
+uint16,48
+uint8,55
+string,126
+boolean,152
+float,188

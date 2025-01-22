@@ -1,0 +1,36 @@
+IsInstance,Type,Component,x,value
+Instance,Branch,Door,uint8,9
+Instance,Attribute,Door,uint8,5
+Instance,Sensor,Door,uint8,3
+Instance,Actuator,Door,uint8,1
+Not Instance,Branch,Door,uint8,2
+Not Instance,Attribute,Door,uint8,1
+Not Instance,Sensor,Door,uint8,3
+Not Instance,Actuator,Door,uint8,5
+
+Instance,Branch,Wheel,uint8,1
+Instance,Attribute,Wheel,uint8,15
+Instance,Sensor,Wheel,uint8,34
+Instance,Actuator,Wheel,uint8,30
+Not Instance,Branch,Wheel,uint8,16
+Not Instance,Attribute,Wheel,uint8,17
+Not Instance,Sensor,Wheel,uint8,34
+Not Instance,Actuator,Wheel,uint8,12
+
+Instance,Branch,Door,float,99
+Instance,Attribute,Door,float,5
+Instance,Sensor,Door,float,61
+Instance,Actuator,Door,float,03
+Not Instance,Branch,Door,float,31
+Not Instance,Attribute,Door,float,10
+Not Instance,Sensor,Door,float,13
+Not Instance,Actuator,Door,float,95
+
+Instance,Branch,Wheel,float,19
+Instance,Attribute,Wheel,float,15
+Instance,Sensor,Wheel,float,16
+Instance,Actuator,Wheel,float,30
+Not Instance,Branch,Wheel,float,13
+Not Instance,Attribute,Wheel,float,11
+Not Instance,Sensor,Wheel,float,31
+Not Instance,Actuator,Wheel,float,19

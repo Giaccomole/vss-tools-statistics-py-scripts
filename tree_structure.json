@@ -1,0 +1,293 @@
+{
+  "name": "Instance Branches",
+  "children": [
+    {
+      "name": "Vehicle",
+      "children": [
+        {
+          "name": "Powertrain",
+          "children": [
+            {
+              "name": "TractionBattery",
+              "children": [
+                {
+                  "name": "Charging",
+                  "children": [
+                    {
+                      "name": "ChargingPort",
+                      "children": [
+                        {
+                          "name": [
+                            "FrontLeft",
+                            "FrontMiddle",
+                            "FrontRight",
+                            "RearLeft",
+                            "RearMiddle",
+                            "RearRight",
+                            "AnyPosition"
+                          ],
+                          "value": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Body",
+          "children": [
+            {
+              "name": "Trunk",
+              "children": [
+                {
+                  "name": "Front",
+                  "value": 0
+                },
+                {
+                  "name": "Rear",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "name": "Windshield",
+              "children": [
+                {
+                  "name": "Front",
+                  "value": 0
+                },
+                {
+                  "name": "Rear",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "name": "Lights",
+              "children": [
+                {
+                  "name": "Beam",
+                  "children": [
+                    {
+                      "name": "Low",
+                      "value": 0
+                    },
+                    {
+                      "name": "High",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "Fog",
+                  "children": [
+                    {
+                      "name": "Rear",
+                      "value": 0
+                    },
+                    {
+                      "name": "Front",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "DirectionIndicator",
+                  "children": [
+                    {
+                      "name": "Left",
+                      "value": 0
+                    },
+                    {
+                      "name": "Right",
+                      "value": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Mirrors",
+              "children": [
+                {
+                  "name": "DriverSide",
+                  "value": 0
+                },
+                {
+                  "name": "PassengerSide",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cabin",
+          "children": [
+            {
+              "name": "HVAC",
+              "children": [
+                {
+                  "name": "Station",
+                  "children": [
+                    {
+                      "name": "Row[1,4]",
+                      "value": 0
+                    },
+                    {
+                      "name": [
+                        "Driver",
+                        "Passenger"
+                      ],
+                      "value": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Light",
+              "children": [
+                {
+                  "name": "Spotlight",
+                  "children": [
+                    {
+                      "name": "Row[1,4]",
+                      "value": 0
+                    },
+                    {
+                      "name": [
+                        "DriverSide",
+                        "PassengerSide"
+                      ],
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "AmbientLight",
+                  "children": [
+                    {
+                      "name": "Row[1,2]",
+                      "value": 0
+                    },
+                    {
+                      "name": [
+                        "DriverSide",
+                        "PassengerSide"
+                      ],
+                      "value": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Door",
+              "children": [
+                {
+                  "name": "Row[1,2]",
+                  "value": 0
+                },
+                {
+                  "name": [
+                    "DriverSide",
+                    "PassengerSide"
+                  ],
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "name": "Seat",
+              "children": [
+                {
+                  "name": "Row[1,2]",
+                  "value": 0
+                },
+                {
+                  "name": [
+                    "DriverSide",
+                    "Middle",
+                    "PassengerSide"
+                  ],
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chassis",
+          "children": [
+            {
+              "name": "Axle",
+              "children": [
+                {
+                  "name": "Row[1,2]",
+                  "value": 0
+                },
+                {
+                  "name": "Wheel",
+                  "children": [
+                    {
+                      "name": "Left",
+                      "value": 0
+                    },
+                    {
+                      "name": "Right",
+                      "value": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OBD",
+          "children": [
+            {
+              "name": "O2",
+              "children": [
+                {
+                  "name": "Sensor[1,8]",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "name": "O2WR",
+              "children": [
+                {
+                  "name": "Sensor[1,8]",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Occupant",
+          "children": [
+            {
+              "name": "Row[1,2]",
+              "value": 0
+            },
+            {
+              "name": [
+                "DriverSide",
+                "Middle",
+                "PassengerSide"
+              ],
+              "value": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
