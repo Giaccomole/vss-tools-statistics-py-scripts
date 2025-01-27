@@ -207,6 +207,10 @@ class VSSDataDatatype(VSSData):
                 raise ValueError(f"Cannot define min/max for datatype '{self.datatype}'")
             if is_array(self.datatype):
                 raise ValueError("Cannot define min/max for array datatypes")
+            if self.min:
+                assert Datatypes.is_datatype(self.min, self.datatype), f"min '{self.min}' is not an '{self.datatype}'"
+            if self.max:
+                assert Datatypes.is_datatype(self.max, self.datatype), f"max '{self.max}' is not an '{self.datatype}'"
         return self
 
     def check_default_min_max(self) -> Self:
@@ -309,9 +313,12 @@ class VSSDataDatatype(VSSData):
         referenced in the unit if given
         """
         if self.unit:
-            assert Datatypes.get_type(self.datatype), f"Cannot use 'unit' with struct datatype: '{self.datatype}'"
+            assert Datatypes.get_type(self.datatype), f"Cannot use 'unit' with complex datatype: '{self.datatype}'"
+            allowed_datatypes = dynamic_units[self.unit].allowed_datatypes
+            if allowed_datatypes is None:
+                allowed_datatypes = []
             assert any(
-                Datatypes.is_subtype_of(self.datatype.rstrip("[]"), a) for a in dynamic_units[self.unit]
+                Datatypes.is_subtype_of(self.datatype.rstrip("[]"), a) for a in allowed_datatypes
             ), f"'{self.datatype}' is not allowed for unit '{self.unit}'"
         return self
 
