@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" class="has-background-dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSS Tools GUI</title>
+    <!-- Bulma CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Prism.js for syntax highlighting -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-dark.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.css">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #4a4a4a 0%, #2c2c2c 100%);
+        }
+        .file-preview {
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            white-space: pre-wrap;
+            background-color: #1e1e1e !important;
+            color: #e0e0e0 !important;
+            border: 1px solid #4a4a4a;
+            border-radius: 6px;
+            padding: 1rem;
+            max-height: 500px;
+            overflow-y: auto;
+            min-height: 300px;
+        }
+        .file-preview * {
+            color: #e0e0e0 !important;
+            background-color: transparent !important;
+        }
+        .file-preview pre {
+            background-color: #1e1e1e !important;
+            color: #e0e0e0 !important;
+        }
+        .loading {
+            color: #b5b5b5;
+            font-style: italic;
+        }
+        /* Prism.js syntax highlighting customization for dark theme */
+        .file-preview pre[class*="language-"] {
+            background-color: #1e1e1e !important;
+            color: #e0e0e0 !important;
+            font-family: 'Courier New', monospace !important;
+            font-size: 14px !important;
+            line-height: 1.4 !important;
+            margin: 0 !important;
+            padding: 1rem !important;
+            border: none !important;
+            border-radius: 6px !important;
+        }
+        .file-preview code[class*="language-"] {
+            background-color: transparent !important;
+            color: inherit !important;
+        }
+        /* Custom syntax colors for dark theme */
+        .token.comment { color: #7c7c7c !important; }
+        .token.string { color: #ce9178 !important; }
+        .token.number { color: #b5cea8 !important; }
+        .token.boolean { color: #569cd6 !important; }
+        .token.keyword { color: #c586c0 !important; }
+        .token.property { color: #9cdcfe !important; }
+        .token.punctuation { color: #d4d4d4 !important; }
+        .token.operator { color: #d4d4d4 !important; }
+        .token.function { color: #dcdcaa !important; }
+        .token.builtin { color: #4ec9b0 !important; }
+        .token.tag { color: #569cd6 !important; }
+        .token.attr-name { color: #92c5f7 !important; }
+        .token.attr-value { color: #ce9178 !important; }
+        /* Line numbers styling */
+        .line-numbers .line-numbers-rows {
+            border-right: 1px solid #4a4a4a !important;
+            background: #2d2d2d !important;
+        }
+        .line-numbers-rows > span:before {
+            color: #858585 !important;
+        }
+        /* Linting errors and warnings */
+        .lint-error {
+            background-color: rgba(244, 71, 71, 0.2) !important;
+            border-left: 3px solid #f44747 !important;
+            padding-left: 0.5rem !important;
+            color: #e0e0e0 !important;
+        }
+        .lint-warning {
+            background-color: rgba(255, 221, 87, 0.2) !important;
+            border-left: 3px solid #ffdd57 !important;
+            padding-left: 0.5rem !important;
+            color: #e0e0e0 !important;
+        }
+        .lint-info {
+            background-color: rgba(50, 152, 220, 0.2) !important;
+            border-left: 3px solid #3298dc !important;
+            padding-left: 0.5rem !important;
+            color: #e0e0e0 !important;
+        }
+        .lint-message {
+            display: inline;
+            font-size: 14px;
+            color: #e0e0e0 !important;
+            font-style: normal;
+            margin-left: 0.5rem;
+        }
+        .preview-header {
+            background: #2c2c2c;
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid #4a4a4a;
+            font-weight: 600;
+            color: #e0e0e0;
+            border-radius: 6px 6px 0 0;
+            margin: -1rem -1rem 1rem -1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .notification.is-success {
+            background-color: #48c774;
+            color: #fff;
+        }
+        .notification.is-danger {
+            background-color: #f14668;
+            color: #fff;
+        }
+        .notification.is-warning {
+            background-color: #ffdd57;
+            color: rgba(0, 0, 0, 0.7);
+        }
+        .notification.is-info {
+            background-color: #3298dc;
+            color: #fff;
+        }
+        .card-header-icon:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+        }
+        .input.is-success {
+            border-color: #48c774;
+        }
+        .input.is-danger {
+            border-color: #f14668;
+        }
+        .progress.is-primary {
+            background-color: #4a4a4a;
+        }
+        .progress.is-primary::-webkit-progress-value {
+            background-color: #00d1b2;
+        }
+        .progress.is-primary::-moz-progress-bar {
+            background-color: #00d1b2;
+        }
+        /* Skeleton loading animation */
+        .skeleton {
+            background: linear-gradient(90deg, #363636 25%, #4a4a4a 50%, #363636 75%);
+            background-size: 200% 100%;
+            animation: loading 1.5s infinite;
+        }
+        @keyframes loading {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+    </style>
+</head>
+<body class="has-background-dark">
+    <!-- Hero Section -->
+    <section class="hero hero-gradient">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title has-text-white">
+                    <i class="fas fa-car mr-3"></i>
+                    VSS Tools GUI
+                </h1>
+                <p class="subtitle has-text-white-ter">
+                    Generate and export Vehicle Signal Specification files with ease
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="section has-background-dark">
+        <div class="container">
+            <!-- Notification Area (hidden by default) -->
+            <div id="notification" class="notification is-hidden mb-5">
+                <button class="delete" id="notification-close"></button>
+                <span id="notification-message"></span>
+            </div>
+
+            <!-- Progress Bar (hidden by default) -->
+            <div id="progress-container" class="is-hidden mb-5">
+                <progress id="progress-bar" class="progress is-primary" value="0" max="100">0%</progress>
+                <p class="has-text-centered has-text-light mt-2">
+                    <span id="progress-text">Processing...</span>
+                </p>
+            </div>
+
+            <!-- Path Input Card -->
+            <div class="card has-background-grey-dark mb-5">
+                <header class="card-header has-background-grey-darker">
+                    <p class="card-header-title has-text-light">
+                        <span class="icon">
+                            <i class="fas fa-folder-open"></i>
+                        </span>
+                        <span>VSS File Configuration</span>
+                    </p>
+                </header>
+                <div class="card-content">
+                    <div class="field">
+                        <label class="label has-text-light">VSSpec File Path</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input class="input has-background-grey-darker has-text-light" type="text" id="path-input" 
+                                   placeholder="Enter path to .vspec file..." 
+                                   value="/Users/q674786/Desktop/vehicle_signal_specification/spec/VehicleSignalSpecification.vspec">
+                            <span class="icon is-small is-left has-text-grey-light">
+                                <i class="fas fa-file-code"></i>
+                            </span>
+                            <span class="icon is-small is-right has-text-success is-hidden" id="path-valid-icon">
+                                <i class="fas fa-check"></i>
+                            </span>
+                            <span class="icon is-small is-right has-text-danger is-hidden" id="path-invalid-icon">
+                                <i class="fas fa-exclamation-triangle"></i>
+                            </span>
+                        </div>
+                        <p class="help has-text-grey-light">
+                            <i class="fas fa-info-circle mr-1"></i>
+                            Select a .vspec file to process with the chosen exporter
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Exporter Selection Card -->
+            <div class="card has-background-grey-dark mb-5">
+                <header class="card-header has-background-grey-darker">
+                    <p class="card-header-title has-text-light">
+                        <span class="icon">
+                            <i class="fas fa-download"></i>
+                        </span>
+                        <span>Export Configuration</span>
+                    </p>
+                </header>
+                <div class="card-content">
+                    <div class="field">
+                        <label class="label has-text-light">Select Exporter</label>
+                        <div class="control has-icons-left">
+                            <div class="select is-fullwidth">
+                                <select id="exporter-select" class="has-background-grey-darker has-text-light">
+                                    <option value="">Choose an exporter...</option>
+                                    <option value="json">JSON - JavaScript Object Notation</option>
+                                    <option value="yaml">YAML - YAML Ain't Markup Language</option>
+                                    <option value="csv">CSV - Comma Separated Values</option>
+                                    <option value="tree">Tree - Hierarchical Text Format</option>
+                                    <option value="jsonschema">JSON Schema - Schema Definition</option>
+                                    <option value="graphql">GraphQL - Query Language Schema</option>
+                                    <option value="protobuf">Protocol Buffers - Google's Data Format</option>
+                                    <option value="ddsidl">DDS-IDL - Data Distribution Service</option>
+                                    <option value="go">Go - Go Programming Language</option>
+                                    <option value="franca">Franca - Interface Definition Language</option>
+                                    <option value="binary">Binary - Optimized Binary Format</option>
+                                    <option value="id">ID - Signal Identifier List</option>
+                                    <option value="apigear">ApiGear - API Generation Framework</option>
+                                    <option value="plantuml">PlantUML - UML Diagram Generator</option>
+                                    <option value="samm">SAMM - Semantic Aspect Meta Model</option>
+                                    <option value="ttl">TTL - RDF Turtle Format</option>
+                                </select>
+                            </div>
+                            <span class="icon is-small is-left has-text-success">
+                                <i class="fas fa-file-export"></i>
+                            </span>
+                        </div>
+                        <p class="help has-text-grey-light">Choose the output format for your VSS data</p>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="field is-grouped is-grouped-right mt-5">
+                        <div class="control">
+                            <button id="generate-btn" class="button is-info">
+                                <span class="icon">
+                                    <i class="fas fa-play"></i>
+                                </span>
+                                <span>Generate Preview</span>
+                            </button>
+                        </div>
+                        <div class="control">
+                            <button id="download-btn" class="button is-primary" disabled>
+                                <span class="icon">
+                                    <i class="fas fa-download"></i>
+                                </span>
+                                <span>Download File</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Preview Card -->
+            <div class="card has-background-grey-dark">
+                <header class="card-header has-background-grey-darker">
+                    <p class="card-header-title has-text-light">
+                        <span class="icon">
+                            <i class="fas fa-eye"></i>
+                        </span>
+                        <span>Generated Content Preview</span>
+                    </p>
+                    <button class="card-header-icon" id="preview-toggle">
+                        <span class="icon has-text-light">
+                            <i class="fas fa-angle-up"></i>
+                        </span>
+                    </button>
+                </header>
+                <div class="card-content" id="preview-content">
+                    <div class="file-preview" id="preview">
+                        <div class="preview-header">
+                            <span class="icon"><i class="fas fa-file-code"></i></span>
+                            Generated Content Preview
+                        </div>
+                        <div class="has-text-centered py-6">
+                            <span class="icon is-large has-text-grey">
+                                <i class="fas fa-file-import fa-2x"></i>
+                            </span>
+                            <p class="has-text-grey-light mt-3">
+                                Select a file path and exporter to generate a preview
+                            </p>
+                            <p class="has-text-grey" style="font-size: 0.85rem;">
+                                Click "Generate Preview" to see the exported content
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer has-background-grey-darker">
+        <div class="content has-text-centered has-text-light">
+            <p>
+                <strong class="has-text-white">VSS Tools GUI</strong> - A modern interface for Vehicle Signal Specification tools.
+            </p>
+            <p>
+                Built with <a href="https://bulma.io" class="has-text-info">Bulma</a> and powered by 
+                <a href="https://github.com/COVESA/vss-tools" class="has-text-info">VSS Tools</a>.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Prism.js for syntax highlighting -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    
+    <script src="app.js"></script>
+</body>
+</html>
